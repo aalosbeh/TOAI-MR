@@ -1,23 +1,3 @@
-"""
-TOAI-MR: Translator-Oriented AI for Medical Record Reconciliation
-Enhanced Model Implementation with Mathematical Formulations
-
-This implementation provides a robust, reproducible version of the TOAI-MR model
-as described in the IEEE conference paper. The code is designed for research
-reproducibility and can be easily extended by other researchers.
-
-Authors: Manus AI Research Team
-License: MIT License
-Citation: Please cite our IEEE conference paper when using this code
-
-Key Features:
-- Mathematical formulations from the paper implemented in code
-- Comprehensive medical knowledge base integration
-- Robust error handling and logging
-- Reproducible training and inference
-- Extensive documentation for research use
-"""
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
