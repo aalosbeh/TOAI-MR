@@ -2,7 +2,7 @@
 
 This repository contains the complete implementation of TOAI-MR, a domain-specific large language model designed for automatic translation and reconciliation of medical records between heterogeneous EHR systems.
 
-## 🏥 Overview
+## Overview
 
 TOAI-MR addresses the critical challenge of medical record interoperability by providing:
 
@@ -10,9 +10,8 @@ TOAI-MR addresses the critical challenge of medical record interoperability by p
 - **Multi-Standard Support**: Native understanding of FHIR, HL7, and ICD-10 standards
 - **Context-Aware Translation**: Links related medical information across records
 - **Real-Time Processing**: On-the-fly translation without data migration requirements
-- **Clinical Validation**: Built-in medical accuracy and safety checks
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -75,7 +74,7 @@ Each sample contains:
 }
 ```
 
-## 🎯 Model Training
+## Model Training
 
 ### Basic Training
 
@@ -119,7 +118,7 @@ wandb login
 python training_pipeline.py --use_wandb
 ```
 
-## 🔍 Model Evaluation
+## Model Evaluation
 
 ### Comprehensive Evaluation
 
@@ -160,7 +159,7 @@ TOAI-MR is evaluated on:
    - Confidence Scores
    - Memory Usage
 
-## 💻 Usage Examples
+## Usage Examples
 
 ### Basic Translation
 
@@ -224,7 +223,7 @@ if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
 ```
 
-## 🏗️ Architecture Details
+##  Architecture Details
 
 ### Model Components
 
@@ -254,16 +253,8 @@ if __name__ == '__main__':
 2. **Phase 2**: EHR translation fine-tuning
 3. **Phase 3**: Reinforcement learning from human feedback
 
-## 📈 Performance Benchmarks
 
-| Metric | TOAI-MR | GPT-4 | BioBERT | Traditional |
-|--------|---------|-------|---------|-------------|
-| BLEU Score | **0.87** | 0.72 | 0.65 | 0.45 |
-| Entity Accuracy | **0.94** | 0.81 | 0.88 | 0.67 |
-| Clinical Validity | **0.92** | 0.76 | 0.82 | 0.89 |
-| Translation Speed | **2.1s** | 5.4s | 1.8s | 0.3s |
-
-## 🔧 Configuration
+## Configuration
 
 ### Model Configuration
 
@@ -293,7 +284,7 @@ TRAINING_CONFIG = {
 }
 ```
 
-## 🧪 Testing
+## Testing
 
 Run unit tests:
 
@@ -307,7 +298,7 @@ Run integration tests:
 python tests/test_integration.py
 ```
 
-## 📝 Logging
+## Logging
 
 TOAI-MR uses structured logging:
 
@@ -320,7 +311,7 @@ logging.basicConfig(
 )
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Docker Deployment
 
@@ -343,71 +334,16 @@ terraform init
 terraform apply
 ```
 
-## 📊 Monitoring
-
-### Model Performance
-
-Monitor model performance with:
-- Translation accuracy metrics
-- Processing time
-- Memory usage
-- Error rates
-
-### System Health
-
-Track system health:
-- API response times
-- Throughput
-- Resource utilization
-- Error logs
-
-## 🔒 Security & Compliance
-
-### HIPAA Compliance
-
-- End-to-end encryption
-- Audit logging
-- Access controls
-- Data anonymization
-
-### Security Features
-
-- Input validation
-- Output sanitization
-- Rate limiting
-- Authentication
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make changes with tests
-4. Submit a pull request
-
-### Development Setup
-
-```bash
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Install pre-commit hooks
-pre-commit install
-
-# Run code formatting
-black src/
-isort src/
-```
-
-## 📚 Citation
+## Citation
 
 If you use TOAI-MR in your research, please cite:
 
 ```bibtex
 @article{toai_mr_2024,
   title={TOAI-MR: Translator-Oriented AI for Medical Record Reconciliation},
-  author={[Authors]},
-  journal={IEEE Conference on Healthcare Informatics},
-  year={2024},
+  author={AlSobeh, Anas},
+  journal={2025 International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)},
+  year={2025},
   pages={1--10}
 }
 ```
