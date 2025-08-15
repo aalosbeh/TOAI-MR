@@ -348,38 +348,8 @@ If you use TOAI-MR in your research, please cite:
 }
 ```
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🆘 Support
-
-- **Documentation**: [Wiki](https://github.com/your-username/toai-mr/wiki)
-- **Issues**: [GitHub Issues](https://github.com/your-username/toai-mr/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/your-username/toai-mr/discussions)
-- **Email**: support@toai-mr.com
-
-## 🙏 Acknowledgments
-
-- Healthcare institutions for data collaboration
-- Medical professionals for validation
-- Open-source community for tools and libraries
-- Research funding from [Grant Agency]
-
-## 📋 Changelog
-
-### v1.0.0 (2024-08-14)
-- Initial release
-- Core TOAI-MR model implementation
-- Training and evaluation pipelines
-- Comprehensive documentation
-
-### v0.9.0 (2024-07-15)
-- Beta release
-- Model architecture finalization
-- Performance optimizations
-
-### v0.1.0 (2024-06-01)
-- Alpha release
-- Proof of concept implementation
 
