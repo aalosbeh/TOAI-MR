@@ -1,10 +1,3 @@
-"""
-TOAI-MR Training Pipeline
-
-This module implements the complete training pipeline for TOAI-MR including
-data loading, training loops, evaluation, and model checkpointing.
-"""
-
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader
