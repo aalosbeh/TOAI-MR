@@ -1,0 +1,1167 @@
+[
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"0ed5b83e\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1954-03-05\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-11 16:46:27\",\n      \"end\": \"2025-08-14 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Omeprazole', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Albuterol', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Atorvastatin', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Furosemide', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Omeprazole', 'dose': '10mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.7, 'blood_pressure_systolic': 147, 'blood_pressure_diastolic': 74, 'heart_rate': 118, 'respiratory_rate': 15, 'oxygen_saturation': 92}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|0ed5b83e|P|2.5\nPID|1||0ed5b83e^^^MRN||Patricia Davis||1954-03-05|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-11 16:46:27|2025-08-14 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "0ed5b83e",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"a9ff3dc0\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1976-11-13\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-01 16:46:27\",\n      \"end\": \"2025-08-07 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Amlodipine', 'dose': '5mg', 'frequency': 'as needed'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Albuterol', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Albuterol', 'dose': '50mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.8, 'blood_pressure_systolic': 171, 'blood_pressure_diastolic': 89, 'heart_rate': 69, 'respiratory_rate': 18, 'oxygen_saturation': 90}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|a9ff3dc0|P|2.5\nPID|1||a9ff3dc0^^^MRN||John Smith||1976-11-13|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-01 16:46:27|2025-08-07 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "a9ff3dc0",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Diabetes Mellitus Type 2"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"cd11ce75\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1969-05-22\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-13 16:46:27\",\n      \"end\": \"2025-08-20 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Omeprazole', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Albuterol', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Amlodipine', 'dose': '10mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.6, 'blood_pressure_systolic': 138, 'blood_pressure_diastolic': 96, 'heart_rate': 95, 'respiratory_rate': 21, 'oxygen_saturation': 92}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|cd11ce75|P|2.5\nPID|1||cd11ce75^^^MRN||Patricia Davis||1969-05-22|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-13 16:46:27|2025-08-20 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "cd11ce75",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Diabetes Mellitus Type 2"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"f03d2da9\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1962-05-27\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-19 16:46:27\",\n      \"end\": \"2025-07-26 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Amlodipine', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Omeprazole', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Lisinopril', 'dose': '25mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.8, 'blood_pressure_systolic': 123, 'blood_pressure_diastolic': 62, 'heart_rate': 63, 'respiratory_rate': 21, 'oxygen_saturation': 94}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|f03d2da9|P|2.5\nPID|1||f03d2da9^^^MRN||Mary Johnson||1962-05-27|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-19 16:46:27|2025-07-26 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "f03d2da9",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"64cb0e4c\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1954-12-19\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-03 16:46:27\",\n      \"end\": \"2025-08-08 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Albuterol', 'dose': '25mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.3, 'blood_pressure_systolic': 165, 'blood_pressure_diastolic': 107, 'heart_rate': 72, 'respiratory_rate': 22, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|64cb0e4c|P|2.5\nPID|1||64cb0e4c^^^MRN||Michael Wilson||1954-12-19|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-03 16:46:27|2025-08-08 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "64cb0e4c",
+    "medical_entities": [
+      "Fever and cough",
+      "Hypertension",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"41fce129\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1968-06-13\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-30 16:46:27\",\n      \"end\": \"2025-08-06 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Lisinopril', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Lisinopril', 'dose': '5mg', 'frequency': 'as needed'}, {'medication': 'Atorvastatin', 'dose': '25mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.7, 'blood_pressure_systolic': 116, 'blood_pressure_diastolic': 93, 'heart_rate': 111, 'respiratory_rate': 17, 'oxygen_saturation': 95}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|41fce129|P|2.5\nPID|1||41fce129^^^MRN||Michael Wilson||1968-06-13|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-30 16:46:27|2025-08-06 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "41fce129",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"ba1b7d80\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"2000-09-22\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-18 16:46:27\",\n      \"end\": \"2025-07-19 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Omeprazole', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Albuterol', 'dose': '50mg', 'frequency': 'once daily'}, {'medication': 'Insulin', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Albuterol', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.8, 'blood_pressure_systolic': 101, 'blood_pressure_diastolic': 85, 'heart_rate': 115, 'respiratory_rate': 23, 'oxygen_saturation': 92}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|ba1b7d80|P|2.5\nPID|1||ba1b7d80^^^MRN||Robert Brown||2000-09-22|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-18 16:46:27|2025-07-19 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "ba1b7d80",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Myocardial Infarction",
+      "Heart Failure",
+      "Hypertension"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"ebbf554d\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1973-09-22\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-21 16:46:27\",\n      \"end\": \"2025-07-27 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Lisinopril', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Amlodipine', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Albuterol', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Atorvastatin', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Albuterol', 'dose': '10mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.8, 'blood_pressure_systolic': 160, 'blood_pressure_diastolic': 60, 'heart_rate': 88, 'respiratory_rate': 16, 'oxygen_saturation': 91}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|ebbf554d|P|2.5\nPID|1||ebbf554d^^^MRN||Patricia Davis||1973-09-22|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-21 16:46:27|2025-07-27 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "ebbf554d",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Diabetes Mellitus Type 2",
+      "Atrial Fibrillation",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"e6c55fee\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1992-01-10\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-21 16:46:27\",\n      \"end\": \"2025-07-24 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Furosemide', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Warfarin', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Omeprazole', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.3, 'blood_pressure_systolic': 150, 'blood_pressure_diastolic': 105, 'heart_rate': 98, 'respiratory_rate': 18, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|e6c55fee|P|2.5\nPID|1||e6c55fee^^^MRN||Michael Wilson||1992-01-10|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-21 16:46:27|2025-07-24 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "e6c55fee",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Pneumonia"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"d35959bb\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1952-09-09\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-15 16:46:27\",\n      \"end\": \"2025-07-20 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Metformin', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Metoprolol', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Albuterol', 'dose': '25mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.6, 'blood_pressure_systolic': 107, 'blood_pressure_diastolic': 60, 'heart_rate': 120, 'respiratory_rate': 14, 'oxygen_saturation': 94}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|d35959bb|P|2.5\nPID|1||d35959bb^^^MRN||Patricia Davis||1952-09-09|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-15 16:46:27|2025-07-20 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "d35959bb",
+    "medical_entities": [
+      "Fever and cough",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"bad71e33\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1987-05-08\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-06 16:46:27\",\n      \"end\": \"2025-08-08 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Albuterol', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Lisinopril', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Warfarin', 'dose': '5mg', 'frequency': 'as needed'}, {'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.5, 'blood_pressure_systolic': 90, 'blood_pressure_diastolic': 108, 'heart_rate': 70, 'respiratory_rate': 23, 'oxygen_saturation': 94}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|bad71e33|P|2.5\nPID|1||bad71e33^^^MRN||John Smith||1987-05-08|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-06 16:46:27|2025-08-08 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "bad71e33",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"fc853c85\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1996-05-08\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-12 16:46:27\",\n      \"end\": \"2025-08-14 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Furosemide', 'dose': '10mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.2, 'blood_pressure_systolic': 144, 'blood_pressure_diastolic': 73, 'heart_rate': 119, 'respiratory_rate': 24, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|fc853c85|P|2.5\nPID|1||fc853c85^^^MRN||John Smith||1996-05-08|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-12 16:46:27|2025-08-14 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "fc853c85",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease",
+      "Hypertension"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"6cf7b8e1\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1994-06-20\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-05 16:46:27\",\n      \"end\": \"2025-08-12 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.8, 'blood_pressure_systolic': 170, 'blood_pressure_diastolic': 99, 'heart_rate': 96, 'respiratory_rate': 21, 'oxygen_saturation': 91}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|6cf7b8e1|P|2.5\nPID|1||6cf7b8e1^^^MRN||John Smith||1994-06-20|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-05 16:46:27|2025-08-12 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "6cf7b8e1",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Chronic Kidney Disease",
+      "Diabetes Mellitus Type 2",
+      "Stroke"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"0ef961ce\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1997-01-02\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-03 16:46:27\",\n      \"end\": \"2025-08-10 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 100.8, 'blood_pressure_systolic': 111, 'blood_pressure_diastolic': 71, 'heart_rate': 60, 'respiratory_rate': 21, 'oxygen_saturation': 94}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|0ef961ce|P|2.5\nPID|1||0ef961ce^^^MRN||Mary Johnson||1997-01-02|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-03 16:46:27|2025-08-10 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "0ef961ce",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Atrial Fibrillation",
+      "Stroke"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"86856f38\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1957-12-26\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-19 16:46:27\",\n      \"end\": \"2025-07-20 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'once daily'}, {'medication': 'Amlodipine', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.9, 'blood_pressure_systolic': 139, 'blood_pressure_diastolic': 99, 'heart_rate': 100, 'respiratory_rate': 21, 'oxygen_saturation': 89}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|86856f38|P|2.5\nPID|1||86856f38^^^MRN||Mary Johnson||1957-12-26|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-19 16:46:27|2025-07-20 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "86856f38",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Atrial Fibrillation"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"1af5e040\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1952-03-16\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-28 16:46:27\",\n      \"end\": \"2025-08-01 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Furosemide', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Insulin', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.0, 'blood_pressure_systolic': 103, 'blood_pressure_diastolic': 87, 'heart_rate': 67, 'respiratory_rate': 16, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|1af5e040|P|2.5\nPID|1||1af5e040^^^MRN||Michael Wilson||1952-03-16|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-28 16:46:27|2025-08-01 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "1af5e040",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Myocardial Infarction",
+      "Diabetes Mellitus Type 2",
+      "Stroke"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"b1da5495\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1966-06-22\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-25 16:46:27\",\n      \"end\": \"2025-07-26 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Albuterol', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Lisinopril', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Amlodipine', 'dose': '50mg', 'frequency': 'once daily'}, {'medication': 'Insulin', 'dose': '5mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.3, 'blood_pressure_systolic': 132, 'blood_pressure_diastolic': 68, 'heart_rate': 117, 'respiratory_rate': 13, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|b1da5495|P|2.5\nPID|1||b1da5495^^^MRN||Robert Brown||1966-06-22|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-25 16:46:27|2025-07-26 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "b1da5495",
+    "medical_entities": [
+      "Fever and cough",
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"44e5bd3a\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1966-01-13\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-28 16:46:27\",\n      \"end\": \"2025-07-31 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Lisinopril', 'dose': '25mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.2, 'blood_pressure_systolic': 150, 'blood_pressure_diastolic': 104, 'heart_rate': 67, 'respiratory_rate': 24, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|44e5bd3a|P|2.5\nPID|1||44e5bd3a^^^MRN||Robert Brown||1966-01-13|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-28 16:46:27|2025-07-31 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "44e5bd3a",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"4cdb8cf0\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"2000-06-08\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-24 16:46:27\",\n      \"end\": \"2025-07-25 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '5mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.4, 'blood_pressure_systolic': 150, 'blood_pressure_diastolic': 102, 'heart_rate': 64, 'respiratory_rate': 21, 'oxygen_saturation': 91}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|4cdb8cf0|P|2.5\nPID|1||4cdb8cf0^^^MRN||John Smith||2000-06-08|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-24 16:46:27|2025-07-25 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "4cdb8cf0",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"e6cf3061\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1990-01-03\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-04 16:46:27\",\n      \"end\": \"2025-08-06 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Furosemide', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Amlodipine', 'dose': '10mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.2, 'blood_pressure_systolic': 105, 'blood_pressure_diastolic': 107, 'heart_rate': 118, 'respiratory_rate': 24, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|e6cf3061|P|2.5\nPID|1||e6cf3061^^^MRN||Patricia Davis||1990-01-03|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-04 16:46:27|2025-08-06 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "e6cf3061",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Heart Failure"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"cbb02190\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1969-01-24\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-16 16:46:27\",\n      \"end\": \"2025-07-22 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.8, 'blood_pressure_systolic': 171, 'blood_pressure_diastolic': 92, 'heart_rate': 75, 'respiratory_rate': 14, 'oxygen_saturation': 93}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|cbb02190|P|2.5\nPID|1||cbb02190^^^MRN||Patricia Davis||1969-01-24|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-16 16:46:27|2025-07-22 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "cbb02190",
+    "medical_entities": [
+      "Fever and cough",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"ab1d4c72\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1977-02-02\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-31 16:46:27\",\n      \"end\": \"2025-08-03 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.2, 'blood_pressure_systolic': 142, 'blood_pressure_diastolic': 71, 'heart_rate': 67, 'respiratory_rate': 24, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|ab1d4c72|P|2.5\nPID|1||ab1d4c72^^^MRN||John Smith||1977-02-02|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-31 16:46:27|2025-08-03 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "ab1d4c72",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"fe535850\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1991-06-14\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-16 16:46:27\",\n      \"end\": \"2025-07-20 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Furosemide', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Amlodipine', 'dose': '5mg', 'frequency': 'as needed'}, {'medication': 'Albuterol', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Amlodipine', 'dose': '25mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.0, 'blood_pressure_systolic': 127, 'blood_pressure_diastolic': 79, 'heart_rate': 107, 'respiratory_rate': 21, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|fe535850|P|2.5\nPID|1||fe535850^^^MRN||Robert Brown||1991-06-14|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-16 16:46:27|2025-07-20 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "fe535850",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Hypertension",
+      "Pneumonia"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"63b4c61d\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1999-05-15\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-16 16:46:27\",\n      \"end\": \"2025-07-22 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Atorvastatin', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Metformin', 'dose': '50mg', 'frequency': 'once daily'}, {'medication': 'Metoprolol', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Lisinopril', 'dose': '10mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.8, 'blood_pressure_systolic': 180, 'blood_pressure_diastolic': 77, 'heart_rate': 103, 'respiratory_rate': 19, 'oxygen_saturation': 95}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|63b4c61d|P|2.5\nPID|1||63b4c61d^^^MRN||Michael Wilson||1999-05-15|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-16 16:46:27|2025-07-22 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "63b4c61d",
+    "medical_entities": [
+      "Headache and dizziness",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"3fb85613\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1957-08-22\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-31 16:46:27\",\n      \"end\": \"2025-08-04 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.6, 'blood_pressure_systolic': 126, 'blood_pressure_diastolic': 103, 'heart_rate': 112, 'respiratory_rate': 20, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|3fb85613|P|2.5\nPID|1||3fb85613^^^MRN||John Smith||1957-08-22|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-31 16:46:27|2025-08-04 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "3fb85613",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Chronic Obstructive Pulmonary Disease",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"b639fffd\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1995-05-03\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-24 16:46:27\",\n      \"end\": \"2025-07-27 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Amlodipine', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Lisinopril', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.6, 'blood_pressure_systolic': 156, 'blood_pressure_diastolic': 103, 'heart_rate': 106, 'respiratory_rate': 12, 'oxygen_saturation': 88}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|b639fffd|P|2.5\nPID|1||b639fffd^^^MRN||Robert Brown||1995-05-03|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-24 16:46:27|2025-07-27 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "b639fffd",
+    "medical_entities": [
+      "Fever and cough",
+      "Hypertension",
+      "Myocardial Infarction"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"8fe672d5\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1998-09-21\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-12 16:46:27\",\n      \"end\": \"2025-08-17 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metformin', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Atorvastatin', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Atorvastatin', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Warfarin', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Metformin', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.1, 'blood_pressure_systolic': 158, 'blood_pressure_diastolic': 95, 'heart_rate': 102, 'respiratory_rate': 12, 'oxygen_saturation': 88}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|8fe672d5|P|2.5\nPID|1||8fe672d5^^^MRN||Patricia Davis||1998-09-21|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-12 16:46:27|2025-08-17 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "8fe672d5",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"19750358\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1998-06-12\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-13 16:46:27\",\n      \"end\": \"2025-08-15 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.2, 'blood_pressure_systolic': 138, 'blood_pressure_diastolic': 86, 'heart_rate': 108, 'respiratory_rate': 17, 'oxygen_saturation': 90}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|19750358|P|2.5\nPID|1||19750358^^^MRN||Robert Brown||1998-06-12|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-13 16:46:27|2025-08-15 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "19750358",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Diabetes Mellitus Type 2",
+      "Hypertension",
+      "Myocardial Infarction"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"daaf3eff\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1987-06-26\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-10 16:46:27\",\n      \"end\": \"2025-08-14 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Omeprazole', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Lisinopril', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Amlodipine', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.7, 'blood_pressure_systolic': 119, 'blood_pressure_diastolic': 90, 'heart_rate': 53, 'respiratory_rate': 21, 'oxygen_saturation': 96}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|daaf3eff|P|2.5\nPID|1||daaf3eff^^^MRN||Patricia Davis||1987-06-26|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-10 16:46:27|2025-08-14 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "daaf3eff",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Stroke"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"5ea1d1cb\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1965-02-19\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-06 16:46:27\",\n      \"end\": \"2025-08-11 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Metoprolol', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Amlodipine', 'dose': '50mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.9, 'blood_pressure_systolic': 148, 'blood_pressure_diastolic': 80, 'heart_rate': 59, 'respiratory_rate': 12, 'oxygen_saturation': 95}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|5ea1d1cb|P|2.5\nPID|1||5ea1d1cb^^^MRN||John Smith||1965-02-19|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-06 16:46:27|2025-08-11 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "5ea1d1cb",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"61fe51ef\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1969-10-20\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-12 16:46:27\",\n      \"end\": \"2025-08-15 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Furosemide', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Omeprazole', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Amlodipine', 'dose': '5mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 100.8, 'blood_pressure_systolic': 124, 'blood_pressure_diastolic': 93, 'heart_rate': 58, 'respiratory_rate': 16, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|61fe51ef|P|2.5\nPID|1||61fe51ef^^^MRN||Patricia Davis||1969-10-20|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-12 16:46:27|2025-08-15 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "61fe51ef",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"16cfbd98\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1990-12-06\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-23 16:46:27\",\n      \"end\": \"2025-07-24 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Amlodipine', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Atorvastatin', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Lisinopril', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '10mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.3, 'blood_pressure_systolic': 141, 'blood_pressure_diastolic': 75, 'heart_rate': 68, 'respiratory_rate': 22, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|16cfbd98|P|2.5\nPID|1||16cfbd98^^^MRN||Michael Wilson||1990-12-06|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-23 16:46:27|2025-07-24 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "16cfbd98",
+    "medical_entities": [
+      "Fever and cough",
+      "Diabetes Mellitus Type 2",
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"4f32002d\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1974-06-22\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-20 16:46:27\",\n      \"end\": \"2025-07-27 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Amlodipine', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Amlodipine', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Furosemide', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Omeprazole', 'dose': '25mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.4, 'blood_pressure_systolic': 159, 'blood_pressure_diastolic': 84, 'heart_rate': 100, 'respiratory_rate': 17, 'oxygen_saturation': 100}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|4f32002d|P|2.5\nPID|1||4f32002d^^^MRN||Michael Wilson||1974-06-22|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-20 16:46:27|2025-07-27 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "4f32002d",
+    "medical_entities": [
+      "Fever and cough",
+      "Chronic Obstructive Pulmonary Disease",
+      "Asthma",
+      "Heart Failure"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"0671c17a\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1961-01-19\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-27 16:46:27\",\n      \"end\": \"2025-07-29 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metformin', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Warfarin', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Furosemide', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 100.8, 'blood_pressure_systolic': 114, 'blood_pressure_diastolic': 66, 'heart_rate': 62, 'respiratory_rate': 22, 'oxygen_saturation': 94}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|0671c17a|P|2.5\nPID|1||0671c17a^^^MRN||Mary Johnson||1961-01-19|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-27 16:46:27|2025-07-29 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "0671c17a",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"1606232e\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1999-02-10\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-08 16:46:27\",\n      \"end\": \"2025-08-13 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '5mg', 'frequency': 'as needed'}, {'medication': 'Omeprazole', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Albuterol', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Omeprazole', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.4, 'blood_pressure_systolic': 160, 'blood_pressure_diastolic': 84, 'heart_rate': 105, 'respiratory_rate': 14, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|1606232e|P|2.5\nPID|1||1606232e^^^MRN||Mary Johnson||1999-02-10|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-08 16:46:27|2025-08-13 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "1606232e",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Chronic Kidney Disease",
+      "Atrial Fibrillation",
+      "Stroke"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"4501910c\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1976-04-24\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-09 16:46:27\",\n      \"end\": \"2025-08-10 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.7, 'blood_pressure_systolic': 133, 'blood_pressure_diastolic': 76, 'heart_rate': 112, 'respiratory_rate': 23, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|4501910c|P|2.5\nPID|1||4501910c^^^MRN||Patricia Davis||1976-04-24|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-09 16:46:27|2025-08-10 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "4501910c",
+    "medical_entities": [
+      "Fever and cough",
+      "Heart Failure",
+      "Hypertension",
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"468a5c12\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1955-05-22\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-09 16:46:27\",\n      \"end\": \"2025-08-15 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Albuterol', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Warfarin', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Metoprolol', 'dose': '25mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.7, 'blood_pressure_systolic': 162, 'blood_pressure_diastolic': 101, 'heart_rate': 101, 'respiratory_rate': 24, 'oxygen_saturation': 93}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|468a5c12|P|2.5\nPID|1||468a5c12^^^MRN||Mary Johnson||1955-05-22|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-09 16:46:27|2025-08-15 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "468a5c12",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Diabetes Mellitus Type 2",
+      "Pneumonia",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"cb6b6ae2\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1963-09-10\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-11 16:46:27\",\n      \"end\": \"2025-08-15 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Lisinopril', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.3, 'blood_pressure_systolic': 136, 'blood_pressure_diastolic': 108, 'heart_rate': 68, 'respiratory_rate': 15, 'oxygen_saturation': 97}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|cb6b6ae2|P|2.5\nPID|1||cb6b6ae2^^^MRN||Michael Wilson||1963-09-10|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-11 16:46:27|2025-08-15 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "cb6b6ae2",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Asthma",
+      "Diabetes Mellitus Type 2"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"2a45453b\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1984-10-16\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-04 16:46:27\",\n      \"end\": \"2025-08-05 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Insulin', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Lisinopril', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Atorvastatin', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Lisinopril', 'dose': '5mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.6, 'blood_pressure_systolic': 162, 'blood_pressure_diastolic': 78, 'heart_rate': 106, 'respiratory_rate': 13, 'oxygen_saturation': 95}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|2a45453b|P|2.5\nPID|1||2a45453b^^^MRN||Patricia Davis||1984-10-16|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-04 16:46:27|2025-08-05 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "2a45453b",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Pneumonia",
+      "Diabetes Mellitus Type 2"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"382ec67a\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1994-07-21\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-19 16:46:27\",\n      \"end\": \"2025-07-22 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.5, 'blood_pressure_systolic': 177, 'blood_pressure_diastolic': 77, 'heart_rate': 119, 'respiratory_rate': 21, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|382ec67a|P|2.5\nPID|1||382ec67a^^^MRN||John Smith||1994-07-21|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-19 16:46:27|2025-07-22 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "382ec67a",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"3d7bcfde\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1968-03-23\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-30 16:46:27\",\n      \"end\": \"2025-07-31 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Amlodipine', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Atorvastatin', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Metoprolol', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Atorvastatin', 'dose': '10mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.2, 'blood_pressure_systolic': 163, 'blood_pressure_diastolic': 83, 'heart_rate': 109, 'respiratory_rate': 24, 'oxygen_saturation': 96}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|3d7bcfde|P|2.5\nPID|1||3d7bcfde^^^MRN||Mary Johnson||1968-03-23|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-30 16:46:27|2025-07-31 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "3d7bcfde",
+    "medical_entities": [
+      "Fever and cough",
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"a16a8e76\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1968-05-12\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-17 16:46:27\",\n      \"end\": \"2025-07-24 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '25mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.8, 'blood_pressure_systolic': 111, 'blood_pressure_diastolic': 99, 'heart_rate': 67, 'respiratory_rate': 24, 'oxygen_saturation': 91}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|a16a8e76|P|2.5\nPID|1||a16a8e76^^^MRN||Robert Brown||1968-05-12|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-17 16:46:27|2025-07-24 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "a16a8e76",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"e33e3878\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1973-06-13\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-03 16:46:27\",\n      \"end\": \"2025-08-09 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.1, 'blood_pressure_systolic': 156, 'blood_pressure_diastolic': 84, 'heart_rate': 65, 'respiratory_rate': 16, 'oxygen_saturation': 100}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|e33e3878|P|2.5\nPID|1||e33e3878^^^MRN||Michael Wilson||1973-06-13|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-03 16:46:27|2025-08-09 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "e33e3878",
+    "medical_entities": [
+      "Fever and cough",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"57ad2e35\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1971-04-09\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-31 16:46:27\",\n      \"end\": \"2025-08-04 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Albuterol', 'dose': '10mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.3, 'blood_pressure_systolic': 138, 'blood_pressure_diastolic': 80, 'heart_rate': 77, 'respiratory_rate': 19, 'oxygen_saturation': 93}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|57ad2e35|P|2.5\nPID|1||57ad2e35^^^MRN||Michael Wilson||1971-04-09|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-31 16:46:27|2025-08-04 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "57ad2e35",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Stroke",
+      "Hypertension"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"7ab5c9e3\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1978-10-26\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-03 16:46:27\",\n      \"end\": \"2025-08-10 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.4, 'blood_pressure_systolic': 121, 'blood_pressure_diastolic': 96, 'heart_rate': 116, 'respiratory_rate': 14, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|7ab5c9e3|P|2.5\nPID|1||7ab5c9e3^^^MRN||Michael Wilson||1978-10-26|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-03 16:46:27|2025-08-10 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "7ab5c9e3",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Stroke",
+      "Asthma"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"c10a4e3d\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1957-11-26\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-12 16:46:27\",\n      \"end\": \"2025-08-13 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '50mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.4, 'blood_pressure_systolic': 172, 'blood_pressure_diastolic': 83, 'heart_rate': 96, 'respiratory_rate': 18, 'oxygen_saturation': 97}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|c10a4e3d|P|2.5\nPID|1||c10a4e3d^^^MRN||Michael Wilson||1957-11-26|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-12 16:46:27|2025-08-13 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "c10a4e3d",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Myocardial Infarction"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"3330e735\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1949-07-23\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-19 16:46:27\",\n      \"end\": \"2025-07-25 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.7, 'blood_pressure_systolic': 146, 'blood_pressure_diastolic': 83, 'heart_rate': 84, 'respiratory_rate': 13, 'oxygen_saturation': 90}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|3330e735|P|2.5\nPID|1||3330e735^^^MRN||John Smith||1949-07-23|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-19 16:46:27|2025-07-25 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "3330e735",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Atrial Fibrillation",
+      "Asthma",
+      "Diabetes Mellitus Type 2"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"1ac5e1ad\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1980-12-17\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-20 16:46:27\",\n      \"end\": \"2025-07-24 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Lisinopril', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Warfarin', 'dose': '10mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.0, 'blood_pressure_systolic': 165, 'blood_pressure_diastolic': 100, 'heart_rate': 58, 'respiratory_rate': 16, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|1ac5e1ad|P|2.5\nPID|1||1ac5e1ad^^^MRN||Michael Wilson||1980-12-17|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-20 16:46:27|2025-07-24 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "1ac5e1ad",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease",
+      "Hypertension"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"d6a2f9bd\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1949-11-08\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-12 16:46:27\",\n      \"end\": \"2025-08-17 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Omeprazole', 'dose': '50mg', 'frequency': 'once daily'}, {'medication': 'Albuterol', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Warfarin', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.4, 'blood_pressure_systolic': 107, 'blood_pressure_diastolic': 93, 'heart_rate': 76, 'respiratory_rate': 20, 'oxygen_saturation': 93}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|d6a2f9bd|P|2.5\nPID|1||d6a2f9bd^^^MRN||Mary Johnson||1949-11-08|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-12 16:46:27|2025-08-17 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "d6a2f9bd",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"52eac090\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1942-01-10\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-29 16:46:27\",\n      \"end\": \"2025-07-30 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Omeprazole', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Lisinopril', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.6, 'blood_pressure_systolic': 125, 'blood_pressure_diastolic': 62, 'heart_rate': 97, 'respiratory_rate': 15, 'oxygen_saturation': 95}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|52eac090|P|2.5\nPID|1||52eac090^^^MRN||John Smith||1942-01-10|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-29 16:46:27|2025-07-30 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "52eac090",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Stroke"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"4b099fc8\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1993-10-02\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-18 16:46:27\",\n      \"end\": \"2025-07-25 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Metformin', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Amlodipine', 'dose': '50mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.4, 'blood_pressure_systolic': 148, 'blood_pressure_diastolic': 64, 'heart_rate': 57, 'respiratory_rate': 14, 'oxygen_saturation': 95}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|4b099fc8|P|2.5\nPID|1||4b099fc8^^^MRN||Michael Wilson||1993-10-02|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-18 16:46:27|2025-07-25 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "4b099fc8",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"cb8669f3\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1955-05-04\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-08 16:46:27\",\n      \"end\": \"2025-08-11 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Warfarin', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.1, 'blood_pressure_systolic': 147, 'blood_pressure_diastolic': 99, 'heart_rate': 56, 'respiratory_rate': 17, 'oxygen_saturation': 88}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|cb8669f3|P|2.5\nPID|1||cb8669f3^^^MRN||Robert Brown||1955-05-04|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-08 16:46:27|2025-08-11 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "cb8669f3",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Stroke",
+      "Hypertension",
+      "Asthma"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"eb7d85b2\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1959-01-23\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-27 16:46:27\",\n      \"end\": \"2025-07-29 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Amlodipine', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Furosemide', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Insulin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Furosemide', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.8, 'blood_pressure_systolic': 122, 'blood_pressure_diastolic': 90, 'heart_rate': 64, 'respiratory_rate': 13, 'oxygen_saturation': 94}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|eb7d85b2|P|2.5\nPID|1||eb7d85b2^^^MRN||Robert Brown||1959-01-23|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-27 16:46:27|2025-07-29 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "eb7d85b2",
+    "medical_entities": [
+      "Fever and cough",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"225f9e37\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1982-02-12\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-20 16:46:27\",\n      \"end\": \"2025-07-25 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 100.4, 'blood_pressure_systolic': 132, 'blood_pressure_diastolic': 110, 'heart_rate': 102, 'respiratory_rate': 24, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|225f9e37|P|2.5\nPID|1||225f9e37^^^MRN||Mary Johnson||1982-02-12|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-20 16:46:27|2025-07-25 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "225f9e37",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"acfe2235\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1965-03-25\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-02 16:46:27\",\n      \"end\": \"2025-08-07 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.7, 'blood_pressure_systolic': 108, 'blood_pressure_diastolic': 66, 'heart_rate': 56, 'respiratory_rate': 16, 'oxygen_saturation': 94}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|acfe2235|P|2.5\nPID|1||acfe2235^^^MRN||Robert Brown||1965-03-25|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-02 16:46:27|2025-08-07 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "acfe2235",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Pneumonia"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"45ef1510\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1947-08-03\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-23 16:46:27\",\n      \"end\": \"2025-07-25 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '5mg', 'frequency': 'as needed'}, {'medication': 'Metoprolol', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Omeprazole', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.2, 'blood_pressure_systolic': 112, 'blood_pressure_diastolic': 67, 'heart_rate': 53, 'respiratory_rate': 14, 'oxygen_saturation': 88}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|45ef1510|P|2.5\nPID|1||45ef1510^^^MRN||Robert Brown||1947-08-03|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-23 16:46:27|2025-07-25 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "45ef1510",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Chronic Obstructive Pulmonary Disease",
+      "Hypertension"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"69f025f0\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1945-12-26\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-10 16:46:27\",\n      \"end\": \"2025-08-11 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '5mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.1, 'blood_pressure_systolic': 173, 'blood_pressure_diastolic': 70, 'heart_rate': 106, 'respiratory_rate': 17, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|69f025f0|P|2.5\nPID|1||69f025f0^^^MRN||Mary Johnson||1945-12-26|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-10 16:46:27|2025-08-11 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "69f025f0",
+    "medical_entities": [
+      "Fever and cough",
+      "Hypertension",
+      "Stroke"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"43dc4940\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1982-02-14\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-02 16:46:27\",\n      \"end\": \"2025-08-09 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Lisinopril', 'dose': '10mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.9, 'blood_pressure_systolic': 103, 'blood_pressure_diastolic': 82, 'heart_rate': 97, 'respiratory_rate': 13, 'oxygen_saturation': 100}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|43dc4940|P|2.5\nPID|1||43dc4940^^^MRN||John Smith||1982-02-14|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-02 16:46:27|2025-08-09 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "43dc4940",
+    "medical_entities": [
+      "Headache and dizziness",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"4360789a\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1977-12-19\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-13 16:46:27\",\n      \"end\": \"2025-08-16 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Lisinopril', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Lisinopril', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '10mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.9, 'blood_pressure_systolic': 148, 'blood_pressure_diastolic': 107, 'heart_rate': 97, 'respiratory_rate': 18, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|4360789a|P|2.5\nPID|1||4360789a^^^MRN||Robert Brown||1977-12-19|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-13 16:46:27|2025-08-16 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "4360789a",
+    "medical_entities": [
+      "Fever and cough",
+      "Myocardial Infarction"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"28e64450\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1948-06-21\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-11 16:46:27\",\n      \"end\": \"2025-08-15 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Albuterol', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Warfarin', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Atorvastatin', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Metoprolol', 'dose': '25mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.1, 'blood_pressure_systolic': 122, 'blood_pressure_diastolic': 72, 'heart_rate': 120, 'respiratory_rate': 16, 'oxygen_saturation': 90}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|28e64450|P|2.5\nPID|1||28e64450^^^MRN||Patricia Davis||1948-06-21|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-11 16:46:27|2025-08-15 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "28e64450",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Hypertension",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"9d14f24b\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1944-10-04\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-12 16:46:27\",\n      \"end\": \"2025-08-19 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Warfarin', 'dose': '50mg', 'frequency': 'once daily'}, {'medication': 'Metoprolol', 'dose': '50mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.7, 'blood_pressure_systolic': 97, 'blood_pressure_diastolic': 89, 'heart_rate': 66, 'respiratory_rate': 20, 'oxygen_saturation': 94}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|9d14f24b|P|2.5\nPID|1||9d14f24b^^^MRN||Michael Wilson||1944-10-04|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-12 16:46:27|2025-08-19 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "9d14f24b",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Hypertension"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"50eeb15c\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1948-12-14\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-28 16:46:27\",\n      \"end\": \"2025-07-29 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Warfarin', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Metformin', 'dose': '5mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.6, 'blood_pressure_systolic': 103, 'blood_pressure_diastolic': 91, 'heart_rate': 106, 'respiratory_rate': 13, 'oxygen_saturation': 89}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|50eeb15c|P|2.5\nPID|1||50eeb15c^^^MRN||Robert Brown||1948-12-14|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-28 16:46:27|2025-07-29 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "50eeb15c",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Atrial Fibrillation",
+      "Chronic Kidney Disease",
+      "Diabetes Mellitus Type 2"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"365c6702\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1959-07-06\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-20 16:46:27\",\n      \"end\": \"2025-07-25 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'once daily'}, {'medication': 'Warfarin', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Warfarin', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Metoprolol', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Omeprazole', 'dose': '5mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.6, 'blood_pressure_systolic': 114, 'blood_pressure_diastolic': 63, 'heart_rate': 84, 'respiratory_rate': 18, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|365c6702|P|2.5\nPID|1||365c6702^^^MRN||Patricia Davis||1959-07-06|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-20 16:46:27|2025-07-25 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "365c6702",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Heart Failure"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"9402d53c\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1966-05-16\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-19 16:46:27\",\n      \"end\": \"2025-07-20 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Lisinopril', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Metformin', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.0, 'blood_pressure_systolic': 173, 'blood_pressure_diastolic': 98, 'heart_rate': 67, 'respiratory_rate': 16, 'oxygen_saturation': 93}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|9402d53c|P|2.5\nPID|1||9402d53c^^^MRN||Patricia Davis||1966-05-16|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-19 16:46:27|2025-07-20 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "9402d53c",
+    "medical_entities": [
+      "Fever and cough",
+      "Pneumonia"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"20df26b5\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1981-06-04\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-08 16:46:27\",\n      \"end\": \"2025-08-13 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.9, 'blood_pressure_systolic': 149, 'blood_pressure_diastolic': 103, 'heart_rate': 119, 'respiratory_rate': 18, 'oxygen_saturation': 96}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|20df26b5|P|2.5\nPID|1||20df26b5^^^MRN||John Smith||1981-06-04|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-08 16:46:27|2025-08-13 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "20df26b5",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"4a259683\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1999-04-24\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-10 16:46:27\",\n      \"end\": \"2025-08-16 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.8, 'blood_pressure_systolic': 173, 'blood_pressure_diastolic': 82, 'heart_rate': 89, 'respiratory_rate': 16, 'oxygen_saturation': 93}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|4a259683|P|2.5\nPID|1||4a259683^^^MRN||John Smith||1999-04-24|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-10 16:46:27|2025-08-16 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "4a259683",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Stroke"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"da5641b0\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1946-02-17\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-09 16:46:27\",\n      \"end\": \"2025-08-11 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Lisinopril', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Furosemide', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Metoprolol', 'dose': '25mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.9, 'blood_pressure_systolic': 173, 'blood_pressure_diastolic': 108, 'heart_rate': 54, 'respiratory_rate': 13, 'oxygen_saturation': 94}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|da5641b0|P|2.5\nPID|1||da5641b0^^^MRN||Patricia Davis||1946-02-17|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-09 16:46:27|2025-08-11 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "da5641b0",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Atrial Fibrillation",
+      "Heart Failure"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"fab2a242\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1969-05-25\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-01 16:46:27\",\n      \"end\": \"2025-08-06 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Amlodipine', 'dose': '5mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.2, 'blood_pressure_systolic': 160, 'blood_pressure_diastolic': 66, 'heart_rate': 116, 'respiratory_rate': 13, 'oxygen_saturation': 92}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|fab2a242|P|2.5\nPID|1||fab2a242^^^MRN||Michael Wilson||1969-05-25|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-01 16:46:27|2025-08-06 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "fab2a242",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Asthma"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"426299e4\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1978-05-01\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-11 16:46:27\",\n      \"end\": \"2025-08-13 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Furosemide', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 102.0, 'blood_pressure_systolic': 145, 'blood_pressure_diastolic': 100, 'heart_rate': 112, 'respiratory_rate': 13, 'oxygen_saturation': 95}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|426299e4|P|2.5\nPID|1||426299e4^^^MRN||Patricia Davis||1978-05-01|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-11 16:46:27|2025-08-13 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "426299e4",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Asthma",
+      "Myocardial Infarction"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"84afcfac\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1947-04-16\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-24 16:46:27\",\n      \"end\": \"2025-07-29 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Omeprazole', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 100.1, 'blood_pressure_systolic': 150, 'blood_pressure_diastolic': 109, 'heart_rate': 59, 'respiratory_rate': 12, 'oxygen_saturation': 97}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|84afcfac|P|2.5\nPID|1||84afcfac^^^MRN||Patricia Davis||1947-04-16|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-24 16:46:27|2025-07-29 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "84afcfac",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"e8438cd7\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1986-06-26\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-17 16:46:27\",\n      \"end\": \"2025-07-18 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'once daily'}, {'medication': 'Amlodipine', 'dose': '50mg', 'frequency': 'once daily'}, {'medication': 'Lisinopril', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.3, 'blood_pressure_systolic': 159, 'blood_pressure_diastolic': 60, 'heart_rate': 61, 'respiratory_rate': 24, 'oxygen_saturation': 91}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|e8438cd7|P|2.5\nPID|1||e8438cd7^^^MRN||John Smith||1986-06-26|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-17 16:46:27|2025-07-18 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "e8438cd7",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"d9fdc65b\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1955-05-11\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-03 16:46:27\",\n      \"end\": \"2025-08-08 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Albuterol', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Warfarin', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.2, 'blood_pressure_systolic': 143, 'blood_pressure_diastolic': 84, 'heart_rate': 52, 'respiratory_rate': 24, 'oxygen_saturation': 97}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|d9fdc65b|P|2.5\nPID|1||d9fdc65b^^^MRN||John Smith||1955-05-11|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-03 16:46:27|2025-08-08 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "d9fdc65b",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"6f9d4c01\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1980-05-06\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-21 16:46:27\",\n      \"end\": \"2025-07-25 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.7, 'blood_pressure_systolic': 178, 'blood_pressure_diastolic': 69, 'heart_rate': 119, 'respiratory_rate': 12, 'oxygen_saturation': 93}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|6f9d4c01|P|2.5\nPID|1||6f9d4c01^^^MRN||Robert Brown||1980-05-06|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-21 16:46:27|2025-07-25 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "6f9d4c01",
+    "medical_entities": [
+      "Headache and dizziness",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"49fd0a85\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1991-03-03\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-22 16:46:27\",\n      \"end\": \"2025-07-29 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metformin', 'dose': '25mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.4, 'blood_pressure_systolic': 159, 'blood_pressure_diastolic': 90, 'heart_rate': 82, 'respiratory_rate': 12, 'oxygen_saturation': 100}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|49fd0a85|P|2.5\nPID|1||49fd0a85^^^MRN||Patricia Davis||1991-03-03|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-22 16:46:27|2025-07-29 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "49fd0a85",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Chronic Obstructive Pulmonary Disease",
+      "Myocardial Infarction"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"7dcde2f3\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1945-10-01\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-19 16:46:27\",\n      \"end\": \"2025-07-26 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metoprolol', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Furosemide', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.7, 'blood_pressure_systolic': 104, 'blood_pressure_diastolic': 77, 'heart_rate': 119, 'respiratory_rate': 17, 'oxygen_saturation': 96}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|7dcde2f3|P|2.5\nPID|1||7dcde2f3^^^MRN||Patricia Davis||1945-10-01|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-19 16:46:27|2025-07-26 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "7dcde2f3",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"ac36f585\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1995-02-28\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-17 16:46:27\",\n      \"end\": \"2025-07-21 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Amlodipine', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Albuterol', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Warfarin', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Furosemide', 'dose': '5mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.4, 'blood_pressure_systolic': 177, 'blood_pressure_diastolic': 78, 'heart_rate': 79, 'respiratory_rate': 23, 'oxygen_saturation': 89}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|ac36f585|P|2.5\nPID|1||ac36f585^^^MRN||Michael Wilson||1995-02-28|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-17 16:46:27|2025-07-21 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "ac36f585",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Myocardial Infarction",
+      "Hypertension",
+      "Stroke"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"4059a174\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1963-05-06\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-30 16:46:27\",\n      \"end\": \"2025-08-06 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Lisinopril', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Lisinopril', 'dose': '5mg', 'frequency': 'as needed'}, {'medication': 'Warfarin', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Amlodipine', 'dose': '10mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.2, 'blood_pressure_systolic': 171, 'blood_pressure_diastolic': 76, 'heart_rate': 114, 'respiratory_rate': 19, 'oxygen_saturation': 92}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|4059a174|P|2.5\nPID|1||4059a174^^^MRN||John Smith||1963-05-06|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-30 16:46:27|2025-08-06 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "4059a174",
+    "medical_entities": [
+      "Fever and cough",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"dd428893\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1945-04-04\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-27 16:46:27\",\n      \"end\": \"2025-08-03 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Furosemide', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '5mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.6, 'blood_pressure_systolic': 116, 'blood_pressure_diastolic': 100, 'heart_rate': 77, 'respiratory_rate': 16, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|dd428893|P|2.5\nPID|1||dd428893^^^MRN||Michael Wilson||1945-04-04|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-27 16:46:27|2025-08-03 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "dd428893",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"f84aa47d\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1994-04-27\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-15 16:46:27\",\n      \"end\": \"2025-07-16 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Metformin', 'dose': '50mg', 'frequency': 'twice daily'}, {'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'once daily'}, {'medication': 'Omeprazole', 'dose': '25mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.3, 'blood_pressure_systolic': 179, 'blood_pressure_diastolic': 77, 'heart_rate': 51, 'respiratory_rate': 20, 'oxygen_saturation': 91}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|f84aa47d|P|2.5\nPID|1||f84aa47d^^^MRN||Robert Brown||1994-04-27|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-15 16:46:27|2025-07-16 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "f84aa47d",
+    "medical_entities": [
+      "Fever and cough",
+      "Pneumonia"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"8bae7ce8\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1983-10-21\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-24 16:46:27\",\n      \"end\": \"2025-07-29 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.7, 'blood_pressure_systolic': 128, 'blood_pressure_diastolic': 110, 'heart_rate': 85, 'respiratory_rate': 21, 'oxygen_saturation': 88}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|8bae7ce8|P|2.5\nPID|1||8bae7ce8^^^MRN||Michael Wilson||1983-10-21|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-24 16:46:27|2025-07-29 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "8bae7ce8",
+    "medical_entities": [
+      "Fever and cough",
+      "Hypertension",
+      "Pneumonia"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"bdaa86ac\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1993-05-25\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-19 16:46:27\",\n      \"end\": \"2025-07-21 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '5mg', 'frequency': 'as needed'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 99.5, 'blood_pressure_systolic': 106, 'blood_pressure_diastolic': 65, 'heart_rate': 87, 'respiratory_rate': 17, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|bdaa86ac|P|2.5\nPID|1||bdaa86ac^^^MRN||Michael Wilson||1993-05-25|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-19 16:46:27|2025-07-21 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "bdaa86ac",
+    "medical_entities": [
+      "Fever and cough",
+      "Asthma"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"48e8ea38\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1987-09-18\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-05 16:46:27\",\n      \"end\": \"2025-08-11 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Furosemide', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Lisinopril', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Lisinopril', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 102.0, 'blood_pressure_systolic': 157, 'blood_pressure_diastolic': 76, 'heart_rate': 120, 'respiratory_rate': 12, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|48e8ea38|P|2.5\nPID|1||48e8ea38^^^MRN||Mary Johnson||1987-09-18|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-05 16:46:27|2025-08-11 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "48e8ea38",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Atrial Fibrillation",
+      "Chronic Obstructive Pulmonary Disease",
+      "Hypertension"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"8d8a511c\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1974-12-24\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-17 16:46:27\",\n      \"end\": \"2025-07-18 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Furosemide', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Amlodipine', 'dose': '5mg', 'frequency': 'once daily'}, {'medication': 'Amlodipine', 'dose': '5mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.7, 'blood_pressure_systolic': 172, 'blood_pressure_diastolic': 94, 'heart_rate': 117, 'respiratory_rate': 19, 'oxygen_saturation': 90}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|8d8a511c|P|2.5\nPID|1||8d8a511c^^^MRN||John Smith||1974-12-24|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-17 16:46:27|2025-07-18 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "8d8a511c",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Myocardial Infarction"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"18a4b841\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1991-12-17\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-30 16:46:27\",\n      \"end\": \"2025-07-31 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Atorvastatin', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.4, 'blood_pressure_systolic': 150, 'blood_pressure_diastolic': 88, 'heart_rate': 83, 'respiratory_rate': 24, 'oxygen_saturation': 91}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|18a4b841|P|2.5\nPID|1||18a4b841^^^MRN||Mary Johnson||1991-12-17|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-30 16:46:27|2025-07-31 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "18a4b841",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"2d81ee29\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1942-11-14\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-25 16:46:27\",\n      \"end\": \"2025-08-01 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.2, 'blood_pressure_systolic': 166, 'blood_pressure_diastolic': 103, 'heart_rate': 56, 'respiratory_rate': 15, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|2d81ee29|P|2.5\nPID|1||2d81ee29^^^MRN||Mary Johnson||1942-11-14|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-25 16:46:27|2025-08-01 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "2d81ee29",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Diabetes Mellitus Type 2"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"3b9b1ae3\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1981-05-23\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-08 16:46:27\",\n      \"end\": \"2025-08-09 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '50mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.0, 'blood_pressure_systolic': 141, 'blood_pressure_diastolic': 102, 'heart_rate': 62, 'respiratory_rate': 14, 'oxygen_saturation': 90}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|3b9b1ae3|P|2.5\nPID|1||3b9b1ae3^^^MRN||Mary Johnson||1981-05-23|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-08 16:46:27|2025-08-09 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "3b9b1ae3",
+    "medical_entities": [
+      "Fever and cough",
+      "Asthma",
+      "Chronic Obstructive Pulmonary Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"65703492\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1975-12-20\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-28 16:46:27\",\n      \"end\": \"2025-08-01 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.4, 'blood_pressure_systolic': 171, 'blood_pressure_diastolic': 110, 'heart_rate': 108, 'respiratory_rate': 13, 'oxygen_saturation': 89}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|65703492|P|2.5\nPID|1||65703492^^^MRN||Mary Johnson||1975-12-20|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-28 16:46:27|2025-08-01 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "65703492",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Chronic Obstructive Pulmonary Disease",
+      "Heart Failure"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"5e4cda91\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1949-10-17\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-09 16:46:27\",\n      \"end\": \"2025-08-12 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Warfarin', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Insulin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Lisinopril', 'dose': '50mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 100.8, 'blood_pressure_systolic': 178, 'blood_pressure_diastolic': 100, 'heart_rate': 53, 'respiratory_rate': 21, 'oxygen_saturation': 95}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|5e4cda91|P|2.5\nPID|1||5e4cda91^^^MRN||Patricia Davis||1949-10-17|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-09 16:46:27|2025-08-12 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "5e4cda91",
+    "medical_entities": [
+      "Fever and cough",
+      "Asthma",
+      "Heart Failure",
+      "Atrial Fibrillation"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"a253a9de\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1969-11-27\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-02 16:46:27\",\n      \"end\": \"2025-08-04 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Lisinopril', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Metoprolol', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Albuterol', 'dose': '25mg', 'frequency': 'as needed'}, {'medication': 'Warfarin', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Omeprazole', 'dose': '5mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 100.8, 'blood_pressure_systolic': 141, 'blood_pressure_diastolic': 77, 'heart_rate': 58, 'respiratory_rate': 15, 'oxygen_saturation': 97}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|a253a9de|P|2.5\nPID|1||a253a9de^^^MRN||Patricia Davis||1969-11-27|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-02 16:46:27|2025-08-04 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "a253a9de",
+    "medical_entities": [
+      "Fever and cough",
+      "Heart Failure"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"d02cc2fe\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1987-12-21\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-29 16:46:27\",\n      \"end\": \"2025-08-03 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'No current medications', 'dose': '', 'frequency': ''}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.2, 'blood_pressure_systolic': 159, 'blood_pressure_diastolic': 71, 'heart_rate': 120, 'respiratory_rate': 12, 'oxygen_saturation': 99}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|d02cc2fe|P|2.5\nPID|1||d02cc2fe^^^MRN||Robert Brown||1987-12-21|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-29 16:46:27|2025-08-03 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "d02cc2fe",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Heart Failure",
+      "Stroke",
+      "Atrial Fibrillation"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"ed4bc822\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1941-06-21\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-10 16:46:27\",\n      \"end\": \"2025-08-16 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Warfarin', 'dose': '10mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.6, 'blood_pressure_systolic': 149, 'blood_pressure_diastolic': 74, 'heart_rate': 101, 'respiratory_rate': 22, 'oxygen_saturation': 90}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|ed4bc822|P|2.5\nPID|1||ed4bc822^^^MRN||John Smith||1941-06-21|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-10 16:46:27|2025-08-16 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "ed4bc822",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Chronic Kidney Disease"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"b736f30f\",\n  \"name\": [\n    {\n      \"text\": \"Michael Wilson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1946-12-04\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-17 16:46:27\",\n      \"end\": \"2025-07-23 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Albuterol', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Lisinopril', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Omeprazole', 'dose': '25mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 100.1, 'blood_pressure_systolic': 150, 'blood_pressure_diastolic': 64, 'heart_rate': 61, 'respiratory_rate': 13, 'oxygen_saturation': 89}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|b736f30f|P|2.5\nPID|1||b736f30f^^^MRN||Michael Wilson||1946-12-04|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-17 16:46:27|2025-07-23 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "b736f30f",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "Chronic Obstructive Pulmonary Disease",
+      "Stroke",
+      "Atrial Fibrillation"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"73043605\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1944-11-28\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-17 16:46:27\",\n      \"end\": \"2025-07-18 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Insulin', 'dose': '10mg', 'frequency': 'twice daily'}, {'medication': 'Insulin', 'dose': '50mg', 'frequency': 'as needed'}, {'medication': 'Atorvastatin', 'dose': '5mg', 'frequency': 'twice daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 100.9, 'blood_pressure_systolic': 133, 'blood_pressure_diastolic': 105, 'heart_rate': 60, 'respiratory_rate': 20, 'oxygen_saturation': 98}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|73043605|P|2.5\nPID|1||73043605^^^MRN||Robert Brown||1944-11-28|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-17 16:46:27|2025-07-18 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "73043605",
+    "medical_entities": [
+      "Headache and dizziness",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"69d15da9\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1980-11-23\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-02 16:46:27\",\n      \"end\": \"2025-08-09 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Amlodipine', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Omeprazole', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Furosemide', 'dose': '25mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.3, 'blood_pressure_systolic': 170, 'blood_pressure_diastolic': 110, 'heart_rate': 108, 'respiratory_rate': 12, 'oxygen_saturation': 89}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|69d15da9|P|2.5\nPID|1||69d15da9^^^MRN||John Smith||1980-11-23|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-02 16:46:27|2025-08-09 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "69d15da9",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Chronic Obstructive Pulmonary Disease",
+      "Stroke",
+      "Asthma"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"ff355bd5\",\n  \"name\": [\n    {\n      \"text\": \"Mary Johnson\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"2000-04-25\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-09 16:46:27\",\n      \"end\": \"2025-08-16 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Albuterol', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Albuterol', 'dose': '10mg', 'frequency': 'as needed'}, {'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.2, 'blood_pressure_systolic': 95, 'blood_pressure_diastolic': 87, 'heart_rate': 52, 'respiratory_rate': 19, 'oxygen_saturation': 89}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|ff355bd5|P|2.5\nPID|1||ff355bd5^^^MRN||Mary Johnson||2000-04-25|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-09 16:46:27|2025-08-16 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "ff355bd5",
+    "medical_entities": [
+      "Fever and cough",
+      "Diabetes Mellitus Type 2",
+      "Myocardial Infarction"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"29f7b1cb\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1962-07-11\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-19 16:46:27\",\n      \"end\": \"2025-07-21 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Abdominal pain and nausea\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Warfarin', 'dose': '25mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 101.1, 'blood_pressure_systolic': 174, 'blood_pressure_diastolic': 79, 'heart_rate': 76, 'respiratory_rate': 20, 'oxygen_saturation': 97}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|29f7b1cb|P|2.5\nPID|1||29f7b1cb^^^MRN||John Smith||1962-07-11|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-19 16:46:27|2025-07-21 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Abdominal pain and nausea||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "29f7b1cb",
+    "medical_entities": [
+      "Abdominal pain and nausea",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"bab69ac6\",\n  \"name\": [\n    {\n      \"text\": \"Patricia Davis\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1958-11-13\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-18 16:46:27\",\n      \"end\": \"2025-07-25 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Amlodipine', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Albuterol', 'dose': '5mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 98.8, 'blood_pressure_systolic': 96, 'blood_pressure_diastolic': 72, 'heart_rate': 116, 'respiratory_rate': 17, 'oxygen_saturation': 97}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|bab69ac6|P|2.5\nPID|1||bab69ac6^^^MRN||Patricia Davis||1958-11-13|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-18 16:46:27|2025-07-25 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "bab69ac6",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "No significant past medical history"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"ba20fe9f\",\n  \"name\": [\n    {\n      \"text\": \"Robert Brown\"\n    }\n  ],\n  \"gender\": \"male\",\n  \"birthDate\": \"1991-10-15\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-18 16:46:27\",\n      \"end\": \"2025-07-24 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Fever and cough\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Albuterol', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Amlodipine', 'dose': '25mg', 'frequency': 'once daily'}, {'medication': 'Omeprazole', 'dose': '10mg', 'frequency': 'once daily'}, {'medication': 'Warfarin', 'dose': '5mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.2, 'blood_pressure_systolic': 134, 'blood_pressure_diastolic': 82, 'heart_rate': 68, 'respiratory_rate': 15, 'oxygen_saturation': 89}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|ba20fe9f|P|2.5\nPID|1||ba20fe9f^^^MRN||Robert Brown||1991-10-15|M|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-18 16:46:27|2025-07-24 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Fever and cough||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "ba20fe9f",
+    "medical_entities": [
+      "Fever and cough",
+      "Diabetes Mellitus Type 2",
+      "Chronic Obstructive Pulmonary Disease",
+      "Stroke"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"1ef4517a\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1956-08-10\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-07-31 16:46:27\",\n      \"end\": \"2025-08-06 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Headache and dizziness\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Metformin', 'dose': '5mg', 'frequency': 'as needed'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 96.3, 'blood_pressure_systolic': 164, 'blood_pressure_diastolic': 90, 'heart_rate': 114, 'respiratory_rate': 20, 'oxygen_saturation': 90}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|1ef4517a|P|2.5\nPID|1||1ef4517a^^^MRN||John Smith||1956-08-10|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-07-31 16:46:27|2025-08-06 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Headache and dizziness||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "1ef4517a",
+    "medical_entities": [
+      "Headache and dizziness",
+      "Heart Failure"
+    ]
+  },
+  {
+    "source_format": "FHIR",
+    "target_format": "HL7",
+    "source_text": "{\n  \"resourceType\": \"Patient\",\n  \"id\": \"6d30464d\",\n  \"name\": [\n    {\n      \"text\": \"John Smith\"\n    }\n  ],\n  \"gender\": \"female\",\n  \"birthDate\": \"1955-10-14\",\n  \"encounter\": {\n    \"resourceType\": \"Encounter\",\n    \"status\": \"finished\",\n    \"period\": {\n      \"start\": \"2025-08-08 16:46:27\",\n      \"end\": \"2025-08-14 16:46:27\"\n    },\n    \"reasonCode\": [\n      {\n        \"text\": \"Chest pain and shortness of breath\"\n      }\n    ]\n  },\n  \"condition\": [\n    {\n      \"text\": \"Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.\"\n    }\n  ],\n  \"medication\": [\n    {\n      \"text\": \"[{'medication': 'Warfarin', 'dose': '5mg', 'frequency': 'twice daily'}, {'medication': 'Furosemide', 'dose': '5mg', 'frequency': 'as needed'}, {'medication': 'Albuterol', 'dose': '25mg', 'frequency': 'twice daily'}, {'medication': 'Metformin', 'dose': '25mg', 'frequency': 'once daily'}]\"\n    }\n  ],\n  \"observation\": [\n    {\n      \"text\": \"{'temperature': 97.4, 'blood_pressure_systolic': 174, 'blood_pressure_diastolic': 100, 'heart_rate': 63, 'respiratory_rate': 24, 'oxygen_saturation': 97}\"\n    }\n  ]\n}",
+    "target_text": "MSH|^~\\&|TOAI-MR|HOSPITAL|RECEIVER|DESTINATION|20250814164627||ADT^A08|6d30464d|P|2.5\nPID|1||6d30464d^^^MRN||John Smith||1955-10-14|F|||||||||||||||||||||||\nPV1|1|I|ICU^101^1|||||||||||||||||||||||||||||||||||2025-08-08 16:46:27|2025-08-14 16:46:27\nOBX|1|ST|CHIEF_COMPLAINT||Chest pain and shortness of breath||||||F\nOBX|2|ST|ASSESSMENT||Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.||||||F",
+    "patient_id": "6d30464d",
+    "medical_entities": [
+      "Chest pain and shortness of breath",
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease"
+    ]
+  }
+]

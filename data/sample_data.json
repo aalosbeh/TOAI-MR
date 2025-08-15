@@ -1,0 +1,127 @@
+[
+  {
+    "source_format": "epic",
+    "target_format": "fhir",
+    "source_record": {
+      "patient_name": "John Doe",
+      "mrn": "12345",
+      "diagnosis": "I10 Essential hypertension"
+    },
+    "target_record": {
+      "resourceType": "Patient",
+      "id": "47a98310-8f8f-4f50-86a3-718df8598cb6",
+      "name": [
+        {
+          "family": "Doe",
+          "given": [
+            "John"
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "patient_id": "47b9d65b-3d17-4dd9-9077-a09844ea356b",
+      "generation_timestamp": "2025-08-14T02:01:04.494347"
+    }
+  },
+  {
+    "source_format": "epic",
+    "target_format": "fhir",
+    "source_record": {
+      "patient_name": "John Doe",
+      "mrn": "12345",
+      "diagnosis": "I10 Essential hypertension"
+    },
+    "target_record": {
+      "resourceType": "Patient",
+      "id": "e7312ac8-a8ca-417b-ad7a-b42d11f8bc23",
+      "name": [
+        {
+          "family": "Doe",
+          "given": [
+            "John"
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "patient_id": "98c70e2d-ed45-4f88-be1b-e5fe9e0b92a2",
+      "generation_timestamp": "2025-08-14T02:01:04.494386"
+    }
+  },
+  {
+    "source_format": "epic",
+    "target_format": "fhir",
+    "source_record": {
+      "patient_name": "John Doe",
+      "mrn": "12345",
+      "diagnosis": "I10 Essential hypertension"
+    },
+    "target_record": {
+      "resourceType": "Patient",
+      "id": "6cb7c8ef-f083-4229-86e4-300ec9478bc5",
+      "name": [
+        {
+          "family": "Doe",
+          "given": [
+            "John"
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "patient_id": "6959a3a2-7efc-4bca-a1c8-af62a9beb44c",
+      "generation_timestamp": "2025-08-14T02:01:04.494397"
+    }
+  },
+  {
+    "source_format": "epic",
+    "target_format": "fhir",
+    "source_record": {
+      "patient_name": "John Doe",
+      "mrn": "12345",
+      "diagnosis": "I10 Essential hypertension"
+    },
+    "target_record": {
+      "resourceType": "Patient",
+      "id": "10e548f3-1db1-4009-a379-6a452f324fa0",
+      "name": [
+        {
+          "family": "Doe",
+          "given": [
+            "John"
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "patient_id": "e2f20cef-2ac6-49e7-815a-e492ba4fb25b",
+      "generation_timestamp": "2025-08-14T02:01:04.494408"
+    }
+  },
+  {
+    "source_format": "epic",
+    "target_format": "fhir",
+    "source_record": {
+      "patient_name": "John Doe",
+      "mrn": "12345",
+      "diagnosis": "I10 Essential hypertension"
+    },
+    "target_record": {
+      "resourceType": "Patient",
+      "id": "c2847aeb-efb8-43af-b75e-8e6929d1d15e",
+      "name": [
+        {
+          "family": "Doe",
+          "given": [
+            "John"
+          ]
+        }
+      ]
+    },
+    "metadata": {
+      "patient_id": "49db7329-c4a1-4fb0-a285-4a47d0444299",
+      "generation_timestamp": "2025-08-14T02:01:04.494416"
+    }
+  }
+]

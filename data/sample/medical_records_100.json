@@ -1,0 +1,6609 @@
+[
+  {
+    "patient_id": "bad71e33",
+    "name": "John Smith",
+    "date_of_birth": "1987-05-08",
+    "gender": "Male",
+    "admission_date": "2025-08-06 16:46:27",
+    "discharge_date": "2025-08-08 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 6 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Albuterol",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "5mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 99.5,
+      "blood_pressure_systolic": 90,
+      "blood_pressure_diastolic": 108,
+      "heart_rate": 70,
+      "respiratory_rate": 23,
+      "oxygen_saturation": 94
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 90.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-08-06",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "6cf7b8e1",
+    "name": "John Smith",
+    "date_of_birth": "1994-06-20",
+    "gender": "Female",
+    "admission_date": "2025-08-05 16:46:27",
+    "discharge_date": "2025-08-12 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 6 days ago.",
+    "past_medical_history": [
+      "Chronic Kidney Disease",
+      "Diabetes Mellitus Type 2",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 97.8,
+      "blood_pressure_systolic": 170,
+      "blood_pressure_diastolic": 99,
+      "heart_rate": 96,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 91
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.6,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 76.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-08-05",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have diabetes mellitus type 2. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "a253a9de",
+    "name": "Patricia Davis",
+    "date_of_birth": "1969-11-27",
+    "gender": "Female",
+    "admission_date": "2025-08-02 16:46:27",
+    "discharge_date": "2025-08-04 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "medication": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "5mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 100.8,
+      "blood_pressure_systolic": 141,
+      "blood_pressure_diastolic": 77,
+      "heart_rate": 58,
+      "respiratory_rate": 15,
+      "oxygen_saturation": 97
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 17.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 110.9,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.5,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-02",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "48e8ea38",
+    "name": "Mary Johnson",
+    "date_of_birth": "1987-09-18",
+    "gender": "Male",
+    "admission_date": "2025-08-05 16:46:27",
+    "discharge_date": "2025-08-11 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Atrial Fibrillation",
+      "Chronic Obstructive Pulmonary Disease",
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "medication": "Furosemide",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 102.0,
+      "blood_pressure_systolic": 157,
+      "blood_pressure_diastolic": 76,
+      "heart_rate": 120,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 158.6,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.4,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-08-05",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "cbb02190",
+    "name": "Patricia Davis",
+    "date_of_birth": "1969-01-24",
+    "gender": "Male",
+    "admission_date": "2025-07-16 16:46:27",
+    "discharge_date": "2025-07-22 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 97.8,
+      "blood_pressure_systolic": 171,
+      "blood_pressure_diastolic": 92,
+      "heart_rate": 75,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 93
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.1,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 140.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Cardiac Catheterization",
+        "date": "2025-07-16",
+        "result": "Pending"
+      },
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-07-16",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "fc853c85",
+    "name": "John Smith",
+    "date_of_birth": "1996-05-08",
+    "gender": "Female",
+    "admission_date": "2025-08-12 16:46:27",
+    "discharge_date": "2025-08-14 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease",
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "medication": "Furosemide",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 101.2,
+      "blood_pressure_systolic": 144,
+      "blood_pressure_diastolic": 73,
+      "heart_rate": 119,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 162.7,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-08-12",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-12",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have chronic obstructive pulmonary disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "0671c17a",
+    "name": "Mary Johnson",
+    "date_of_birth": "1961-01-19",
+    "gender": "Male",
+    "admission_date": "2025-07-27 16:46:27",
+    "discharge_date": "2025-07-29 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Metformin",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 100.8,
+      "blood_pressure_systolic": 114,
+      "blood_pressure_diastolic": 66,
+      "heart_rate": 62,
+      "respiratory_rate": 22,
+      "oxygen_saturation": 94
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 123.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.8,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have diabetes mellitus type 2. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "e8438cd7",
+    "name": "John Smith",
+    "date_of_birth": "1986-06-26",
+    "gender": "Female",
+    "admission_date": "2025-07-17 16:46:27",
+    "discharge_date": "2025-07-18 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "50mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 96.3,
+      "blood_pressure_systolic": 159,
+      "blood_pressure_diastolic": 60,
+      "heart_rate": 61,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 91
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 11.3,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 133.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Cardiac Catheterization",
+        "date": "2025-07-17",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "1ef4517a",
+    "name": "John Smith",
+    "date_of_birth": "1956-08-10",
+    "gender": "Female",
+    "admission_date": "2025-07-31 16:46:27",
+    "discharge_date": "2025-08-06 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "medication": "Metformin",
+        "dose": "5mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 96.3,
+      "blood_pressure_systolic": 164,
+      "blood_pressure_diastolic": 90,
+      "heart_rate": 114,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 90
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 136.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.8,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have asthma. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "5ea1d1cb",
+    "name": "John Smith",
+    "date_of_birth": "1965-02-19",
+    "gender": "Male",
+    "admission_date": "2025-08-06 16:46:27",
+    "discharge_date": "2025-08-11 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "50mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 99.9,
+      "blood_pressure_systolic": 148,
+      "blood_pressure_diastolic": 80,
+      "heart_rate": 59,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 95
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 143.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-08-06",
+        "result": "Pending"
+      },
+      {
+        "procedure": "MRI",
+        "date": "2025-08-06",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "4059a174",
+    "name": "John Smith",
+    "date_of_birth": "1963-05-06",
+    "gender": "Male",
+    "admission_date": "2025-07-30 16:46:27",
+    "discharge_date": "2025-08-06 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "5mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "10mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 97.2,
+      "blood_pressure_systolic": 171,
+      "blood_pressure_diastolic": 76,
+      "heart_rate": 114,
+      "respiratory_rate": 19,
+      "oxygen_saturation": 92
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 17.2,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 180.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "MRI",
+        "date": "2025-07-30",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "6f9d4c01",
+    "name": "Robert Brown",
+    "date_of_birth": "1980-05-06",
+    "gender": "Male",
+    "admission_date": "2025-07-21 16:46:27",
+    "discharge_date": "2025-07-25 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 101.7,
+      "blood_pressure_systolic": 178,
+      "blood_pressure_diastolic": 69,
+      "heart_rate": 119,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 93
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 14.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 89.3,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.8,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-07-21",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "225f9e37",
+    "name": "Mary Johnson",
+    "date_of_birth": "1982-02-12",
+    "gender": "Male",
+    "admission_date": "2025-07-20 16:46:27",
+    "discharge_date": "2025-07-25 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Chronic Obstructive Pulmonary Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 100.4,
+      "blood_pressure_systolic": 132,
+      "blood_pressure_diastolic": 110,
+      "heart_rate": 102,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 175.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-07-20",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Cardiac Catheterization",
+        "date": "2025-07-20",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have chronic obstructive pulmonary disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "f03d2da9",
+    "name": "Mary Johnson",
+    "date_of_birth": "1962-05-27",
+    "gender": "Female",
+    "admission_date": "2025-07-19 16:46:27",
+    "discharge_date": "2025-07-26 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "25mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 101.8,
+      "blood_pressure_systolic": 123,
+      "blood_pressure_diastolic": 62,
+      "heart_rate": 63,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 94
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 172.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-07-19",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "CT Scan",
+        "date": "2025-07-19",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "ebbf554d",
+    "name": "Patricia Davis",
+    "date_of_birth": "1973-09-22",
+    "gender": "Male",
+    "admission_date": "2025-07-21 16:46:27",
+    "discharge_date": "2025-07-27 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Atrial Fibrillation",
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Lisinopril",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "10mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 97.8,
+      "blood_pressure_systolic": 160,
+      "blood_pressure_diastolic": 60,
+      "heart_rate": 88,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 91
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.4,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 145.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.5,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-07-21",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have chronic obstructive pulmonary disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "16cfbd98",
+    "name": "Michael Wilson",
+    "date_of_birth": "1990-12-06",
+    "gender": "Female",
+    "admission_date": "2025-07-23 16:46:27",
+    "discharge_date": "2025-07-24 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Chronic Obstructive Pulmonary Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Amlodipine",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "10mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 98.3,
+      "blood_pressure_systolic": 141,
+      "blood_pressure_diastolic": 75,
+      "heart_rate": 68,
+      "respiratory_rate": 22,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 167.6,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "18a4b841",
+    "name": "Mary Johnson",
+    "date_of_birth": "1991-12-17",
+    "gender": "Male",
+    "admission_date": "2025-07-30 16:46:27",
+    "discharge_date": "2025-07-31 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 101.4,
+      "blood_pressure_systolic": 150,
+      "blood_pressure_diastolic": 88,
+      "heart_rate": 83,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 91
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 106.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-07-30",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "d9fdc65b",
+    "name": "John Smith",
+    "date_of_birth": "1955-05-11",
+    "gender": "Female",
+    "admission_date": "2025-08-03 16:46:27",
+    "discharge_date": "2025-08-08 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Chronic Obstructive Pulmonary Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 97.2,
+      "blood_pressure_systolic": 143,
+      "blood_pressure_diastolic": 84,
+      "heart_rate": 52,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 97
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 70.8,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.1,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Endoscopy",
+        "date": "2025-08-03",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have chronic kidney disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "57ad2e35",
+    "name": "Michael Wilson",
+    "date_of_birth": "1971-04-09",
+    "gender": "Male",
+    "admission_date": "2025-07-31 16:46:27",
+    "discharge_date": "2025-08-04 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "Stroke",
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 96.3,
+      "blood_pressure_systolic": 138,
+      "blood_pressure_diastolic": 80,
+      "heart_rate": 77,
+      "respiratory_rate": 19,
+      "oxygen_saturation": 93
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 184.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "MRI",
+        "date": "2025-07-31",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "4cdb8cf0",
+    "name": "John Smith",
+    "date_of_birth": "2000-06-08",
+    "gender": "Male",
+    "admission_date": "2025-07-24 16:46:27",
+    "discharge_date": "2025-07-25 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "5mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 97.4,
+      "blood_pressure_systolic": 150,
+      "blood_pressure_diastolic": 102,
+      "heart_rate": 64,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 91
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 103.3,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.1,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-07-24",
+        "result": "Normal"
+      },
+      {
+        "procedure": "MRI",
+        "date": "2025-07-24",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have asthma. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "a9ff3dc0",
+    "name": "John Smith",
+    "date_of_birth": "1976-11-13",
+    "gender": "Female",
+    "admission_date": "2025-08-01 16:46:27",
+    "discharge_date": "2025-08-07 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2"
+    ],
+    "medications": [
+      {
+        "medication": "Amlodipine",
+        "dose": "5mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "50mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 101.8,
+      "blood_pressure_systolic": 171,
+      "blood_pressure_diastolic": 89,
+      "heart_rate": 69,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 90
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 195.5,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-01",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Endoscopy",
+        "date": "2025-08-01",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have asthma. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "f84aa47d",
+    "name": "Robert Brown",
+    "date_of_birth": "1994-04-27",
+    "gender": "Female",
+    "admission_date": "2025-07-15 16:46:27",
+    "discharge_date": "2025-07-16 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "Pneumonia"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 101.3,
+      "blood_pressure_systolic": 179,
+      "blood_pressure_diastolic": 77,
+      "heart_rate": 51,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 91
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 163.6,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.3,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "e6cf3061",
+    "name": "Patricia Davis",
+    "date_of_birth": "1990-01-03",
+    "gender": "Female",
+    "admission_date": "2025-08-04 16:46:27",
+    "discharge_date": "2025-08-06 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 6 days ago.",
+    "past_medical_history": [
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "10mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 97.2,
+      "blood_pressure_systolic": 105,
+      "blood_pressure_diastolic": 107,
+      "heart_rate": 118,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 11.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 98.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.3,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "MRI",
+        "date": "2025-08-04",
+        "result": "Normal"
+      },
+      {
+        "procedure": "CT Scan",
+        "date": "2025-08-04",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have chronic obstructive pulmonary disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "eb7d85b2",
+    "name": "Robert Brown",
+    "date_of_birth": "1959-01-23",
+    "gender": "Male",
+    "admission_date": "2025-07-27 16:46:27",
+    "discharge_date": "2025-07-29 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Amlodipine",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 101.8,
+      "blood_pressure_systolic": 122,
+      "blood_pressure_diastolic": 90,
+      "heart_rate": 64,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 94
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 145.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.6,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "dd428893",
+    "name": "Michael Wilson",
+    "date_of_birth": "1945-04-04",
+    "gender": "Female",
+    "admission_date": "2025-07-27 16:46:27",
+    "discharge_date": "2025-08-03 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Furosemide",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "5mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 96.6,
+      "blood_pressure_systolic": 116,
+      "blood_pressure_diastolic": 100,
+      "heart_rate": 77,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.6,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 101.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.4,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "2a45453b",
+    "name": "Patricia Davis",
+    "date_of_birth": "1984-10-16",
+    "gender": "Female",
+    "admission_date": "2025-08-04 16:46:27",
+    "discharge_date": "2025-08-05 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Pneumonia",
+      "Diabetes Mellitus Type 2"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "5mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 99.6,
+      "blood_pressure_systolic": 162,
+      "blood_pressure_diastolic": 78,
+      "heart_rate": 106,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 95
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 161.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-04",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-08-04",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "426299e4",
+    "name": "Patricia Davis",
+    "date_of_birth": "1978-05-01",
+    "gender": "Female",
+    "admission_date": "2025-08-11 16:46:27",
+    "discharge_date": "2025-08-13 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "Asthma",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "medication": "Furosemide",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 102.0,
+      "blood_pressure_systolic": 145,
+      "blood_pressure_diastolic": 100,
+      "heart_rate": 112,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 95
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 113.3,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.5,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "bab69ac6",
+    "name": "Patricia Davis",
+    "date_of_birth": "1958-11-13",
+    "gender": "Female",
+    "admission_date": "2025-07-18 16:46:27",
+    "discharge_date": "2025-07-25 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Amlodipine",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "5mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 98.8,
+      "blood_pressure_systolic": 96,
+      "blood_pressure_diastolic": 72,
+      "heart_rate": 116,
+      "respiratory_rate": 17,
+      "oxygen_saturation": 97
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.1,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 151.3,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "63b4c61d",
+    "name": "Michael Wilson",
+    "date_of_birth": "1999-05-15",
+    "gender": "Male",
+    "admission_date": "2025-07-16 16:46:27",
+    "discharge_date": "2025-07-22 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "50mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 97.8,
+      "blood_pressure_systolic": 180,
+      "blood_pressure_diastolic": 77,
+      "heart_rate": 103,
+      "respiratory_rate": 19,
+      "oxygen_saturation": 95
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 11.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 141.7,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.1,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-07-16",
+        "result": "Normal"
+      },
+      {
+        "procedure": "MRI",
+        "date": "2025-07-16",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "e6c55fee",
+    "name": "Michael Wilson",
+    "date_of_birth": "1992-01-10",
+    "gender": "Female",
+    "admission_date": "2025-07-21 16:46:27",
+    "discharge_date": "2025-07-24 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "Pneumonia"
+    ],
+    "medications": [
+      {
+        "medication": "Furosemide",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 96.3,
+      "blood_pressure_systolic": 150,
+      "blood_pressure_diastolic": 105,
+      "heart_rate": 98,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.3,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 154.8,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.8,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "ac36f585",
+    "name": "Michael Wilson",
+    "date_of_birth": "1995-02-28",
+    "gender": "Female",
+    "admission_date": "2025-07-17 16:46:27",
+    "discharge_date": "2025-07-21 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Myocardial Infarction",
+      "Hypertension",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "5mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 97.4,
+      "blood_pressure_systolic": 177,
+      "blood_pressure_diastolic": 78,
+      "heart_rate": 79,
+      "respiratory_rate": 23,
+      "oxygen_saturation": 89
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 82.8,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.5,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "0ef961ce",
+    "name": "Mary Johnson",
+    "date_of_birth": "1997-01-02",
+    "gender": "Female",
+    "admission_date": "2025-08-03 16:46:27",
+    "discharge_date": "2025-08-10 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Atrial Fibrillation",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 100.8,
+      "blood_pressure_systolic": 111,
+      "blood_pressure_diastolic": 71,
+      "heart_rate": 60,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 94
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 101.3,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have chronic obstructive pulmonary disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "cd11ce75",
+    "name": "Patricia Davis",
+    "date_of_birth": "1969-05-22",
+    "gender": "Female",
+    "admission_date": "2025-08-13 16:46:27",
+    "discharge_date": "2025-08-20 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2"
+    ],
+    "medications": [
+      {
+        "medication": "Omeprazole",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 96.6,
+      "blood_pressure_systolic": 138,
+      "blood_pressure_diastolic": 96,
+      "heart_rate": 95,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 92
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 17.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 108.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 2.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Endoscopy",
+        "date": "2025-08-13",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Cardiac Catheterization",
+        "date": "2025-08-13",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "bdaa86ac",
+    "name": "Michael Wilson",
+    "date_of_birth": "1993-05-25",
+    "gender": "Female",
+    "admission_date": "2025-07-19 16:46:27",
+    "discharge_date": "2025-07-21 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "5mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 99.5,
+      "blood_pressure_systolic": 106,
+      "blood_pressure_diastolic": 65,
+      "heart_rate": 87,
+      "respiratory_rate": 17,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.3,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 96.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "MRI",
+        "date": "2025-07-19",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "daaf3eff",
+    "name": "Patricia Davis",
+    "date_of_birth": "1987-06-26",
+    "gender": "Female",
+    "admission_date": "2025-08-10 16:46:27",
+    "discharge_date": "2025-08-14 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "medication": "Omeprazole",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 96.7,
+      "blood_pressure_systolic": 119,
+      "blood_pressure_diastolic": 90,
+      "heart_rate": 53,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 96
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.6,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 149.3,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.5,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-10",
+        "result": "Pending"
+      },
+      {
+        "procedure": "MRI",
+        "date": "2025-08-10",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "52eac090",
+    "name": "John Smith",
+    "date_of_birth": "1942-01-10",
+    "gender": "Male",
+    "admission_date": "2025-07-29 16:46:27",
+    "discharge_date": "2025-07-30 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "medication": "Omeprazole",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 101.6,
+      "blood_pressure_systolic": 125,
+      "blood_pressure_diastolic": 62,
+      "heart_rate": 97,
+      "respiratory_rate": 15,
+      "oxygen_saturation": 95
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.6,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 100.7,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.1,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-07-29",
+        "result": "Pending"
+      },
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-07-29",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "45ef1510",
+    "name": "Robert Brown",
+    "date_of_birth": "1947-08-03",
+    "gender": "Male",
+    "admission_date": "2025-07-23 16:46:27",
+    "discharge_date": "2025-07-25 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "5mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 99.2,
+      "blood_pressure_systolic": 112,
+      "blood_pressure_diastolic": 67,
+      "heart_rate": 53,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 88
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 172.5,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.4,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "50eeb15c",
+    "name": "Robert Brown",
+    "date_of_birth": "1948-12-14",
+    "gender": "Male",
+    "admission_date": "2025-07-28 16:46:27",
+    "discharge_date": "2025-07-29 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "Atrial Fibrillation",
+      "Chronic Kidney Disease",
+      "Diabetes Mellitus Type 2"
+    ],
+    "medications": [
+      {
+        "medication": "Warfarin",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 98.6,
+      "blood_pressure_systolic": 103,
+      "blood_pressure_diastolic": 91,
+      "heart_rate": 106,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 89
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.6,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 89.3,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.8,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-07-28",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "MRI",
+        "date": "2025-07-28",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have chronic kidney disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "b736f30f",
+    "name": "Michael Wilson",
+    "date_of_birth": "1946-12-04",
+    "gender": "Female",
+    "admission_date": "2025-07-17 16:46:27",
+    "discharge_date": "2025-07-23 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Stroke",
+      "Atrial Fibrillation"
+    ],
+    "medications": [
+      {
+        "medication": "Albuterol",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 100.1,
+      "blood_pressure_systolic": 150,
+      "blood_pressure_diastolic": 64,
+      "heart_rate": 61,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 89
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 166.8,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.1,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have chronic kidney disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "43dc4940",
+    "name": "John Smith",
+    "date_of_birth": "1982-02-14",
+    "gender": "Female",
+    "admission_date": "2025-08-02 16:46:27",
+    "discharge_date": "2025-08-09 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 98.9,
+      "blood_pressure_systolic": 103,
+      "blood_pressure_diastolic": 82,
+      "heart_rate": 97,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 100
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.2,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 99.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Cardiac Catheterization",
+        "date": "2025-08-02",
+        "result": "Pending"
+      },
+      {
+        "procedure": "MRI",
+        "date": "2025-08-02",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "19750358",
+    "name": "Robert Brown",
+    "date_of_birth": "1998-06-12",
+    "gender": "Female",
+    "admission_date": "2025-08-13 16:46:27",
+    "discharge_date": "2025-08-15 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Hypertension",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 99.2,
+      "blood_pressure_systolic": 138,
+      "blood_pressure_diastolic": 86,
+      "heart_rate": 108,
+      "respiratory_rate": 17,
+      "oxygen_saturation": 90
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 163.8,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-08-13",
+        "result": "Normal"
+      },
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-08-13",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have asthma. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "3fb85613",
+    "name": "John Smith",
+    "date_of_birth": "1957-08-22",
+    "gender": "Male",
+    "admission_date": "2025-07-31 16:46:27",
+    "discharge_date": "2025-08-04 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 98.6,
+      "blood_pressure_systolic": 126,
+      "blood_pressure_diastolic": 103,
+      "heart_rate": 112,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 98.7,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 2.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "ff355bd5",
+    "name": "Mary Johnson",
+    "date_of_birth": "2000-04-25",
+    "gender": "Female",
+    "admission_date": "2025-08-09 16:46:27",
+    "discharge_date": "2025-08-16 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "medication": "Albuterol",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 101.2,
+      "blood_pressure_systolic": 95,
+      "blood_pressure_diastolic": 87,
+      "heart_rate": 52,
+      "respiratory_rate": 19,
+      "oxygen_saturation": 89
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 144.8,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.4,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Endoscopy",
+        "date": "2025-08-09",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-08-09",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "ba20fe9f",
+    "name": "Robert Brown",
+    "date_of_birth": "1991-10-15",
+    "gender": "Male",
+    "admission_date": "2025-07-18 16:46:27",
+    "discharge_date": "2025-07-24 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Chronic Obstructive Pulmonary Disease",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "medication": "Albuterol",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "5mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 97.2,
+      "blood_pressure_systolic": 134,
+      "blood_pressure_diastolic": 82,
+      "heart_rate": 68,
+      "respiratory_rate": 15,
+      "oxygen_saturation": 89
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 11.2,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 95.6,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.4,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-07-18",
+        "result": "Normal"
+      },
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-07-18",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have asthma. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "8bae7ce8",
+    "name": "Michael Wilson",
+    "date_of_birth": "1983-10-21",
+    "gender": "Female",
+    "admission_date": "2025-07-24 16:46:27",
+    "discharge_date": "2025-07-29 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "Hypertension",
+      "Pneumonia"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 98.7,
+      "blood_pressure_systolic": 128,
+      "blood_pressure_diastolic": 110,
+      "heart_rate": 85,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 88
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 79.6,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "73043605",
+    "name": "Robert Brown",
+    "date_of_birth": "1944-11-28",
+    "gender": "Female",
+    "admission_date": "2025-07-17 16:46:27",
+    "discharge_date": "2025-07-18 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 100.9,
+      "blood_pressure_systolic": 133,
+      "blood_pressure_diastolic": 105,
+      "heart_rate": 60,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 11.4,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 102.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-07-17",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "b1da5495",
+    "name": "Robert Brown",
+    "date_of_birth": "1966-06-22",
+    "gender": "Female",
+    "admission_date": "2025-07-25 16:46:27",
+    "discharge_date": "2025-07-26 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Albuterol",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "50mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 98.3,
+      "blood_pressure_systolic": 132,
+      "blood_pressure_diastolic": 68,
+      "heart_rate": 117,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.4,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 136.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.6,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-07-25",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "0ed5b83e",
+    "name": "Patricia Davis",
+    "date_of_birth": "1954-03-05",
+    "gender": "Male",
+    "admission_date": "2025-08-11 16:46:27",
+    "discharge_date": "2025-08-14 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Omeprazole",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 97.7,
+      "blood_pressure_systolic": 147,
+      "blood_pressure_diastolic": 74,
+      "heart_rate": 118,
+      "respiratory_rate": 15,
+      "oxygen_saturation": 92
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 17.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 172.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "fab2a242",
+    "name": "Michael Wilson",
+    "date_of_birth": "1969-05-25",
+    "gender": "Female",
+    "admission_date": "2025-08-01 16:46:27",
+    "discharge_date": "2025-08-06 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "medication": "Amlodipine",
+        "dose": "5mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 101.2,
+      "blood_pressure_systolic": 160,
+      "blood_pressure_diastolic": 66,
+      "heart_rate": 116,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 92
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 90.8,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-08-01",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-08-01",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "44e5bd3a",
+    "name": "Robert Brown",
+    "date_of_birth": "1966-01-13",
+    "gender": "Male",
+    "admission_date": "2025-07-28 16:46:27",
+    "discharge_date": "2025-07-31 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "25mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 96.2,
+      "blood_pressure_systolic": 150,
+      "blood_pressure_diastolic": 104,
+      "heart_rate": 67,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 150.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "65703492",
+    "name": "Mary Johnson",
+    "date_of_birth": "1975-12-20",
+    "gender": "Male",
+    "admission_date": "2025-07-28 16:46:27",
+    "discharge_date": "2025-08-01 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 97.4,
+      "blood_pressure_systolic": 171,
+      "blood_pressure_diastolic": 110,
+      "heart_rate": 108,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 89
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 135.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.4,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-07-28",
+        "result": "Pending"
+      },
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-07-28",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "6d30464d",
+    "name": "John Smith",
+    "date_of_birth": "1955-10-14",
+    "gender": "Female",
+    "admission_date": "2025-08-08 16:46:27",
+    "discharge_date": "2025-08-14 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Warfarin",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "5mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 97.4,
+      "blood_pressure_systolic": 174,
+      "blood_pressure_diastolic": 100,
+      "heart_rate": 63,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 97
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 113.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-08-08",
+        "result": "Pending"
+      },
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-08-08",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "49fd0a85",
+    "name": "Patricia Davis",
+    "date_of_birth": "1991-03-03",
+    "gender": "Male",
+    "admission_date": "2025-07-22 16:46:27",
+    "discharge_date": "2025-07-29 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 98.4,
+      "blood_pressure_systolic": 159,
+      "blood_pressure_diastolic": 90,
+      "heart_rate": 82,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 100
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.2,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 107.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.8,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "fe535850",
+    "name": "Robert Brown",
+    "date_of_birth": "1991-06-14",
+    "gender": "Male",
+    "admission_date": "2025-07-16 16:46:27",
+    "discharge_date": "2025-07-20 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "Hypertension",
+      "Pneumonia"
+    ],
+    "medications": [
+      {
+        "medication": "Furosemide",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "5mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "25mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 98.0,
+      "blood_pressure_systolic": 127,
+      "blood_pressure_diastolic": 79,
+      "heart_rate": 107,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.4,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 159.7,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.1,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "c10a4e3d",
+    "name": "Michael Wilson",
+    "date_of_birth": "1957-11-26",
+    "gender": "Female",
+    "admission_date": "2025-08-12 16:46:27",
+    "discharge_date": "2025-08-13 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "50mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 96.4,
+      "blood_pressure_systolic": 172,
+      "blood_pressure_diastolic": 83,
+      "heart_rate": 96,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 97
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.3,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 89.9,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-08-12",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have diabetes mellitus type 2. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "e33e3878",
+    "name": "Michael Wilson",
+    "date_of_birth": "1973-06-13",
+    "gender": "Male",
+    "admission_date": "2025-08-03 16:46:27",
+    "discharge_date": "2025-08-09 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 97.1,
+      "blood_pressure_systolic": 156,
+      "blood_pressure_diastolic": 84,
+      "heart_rate": 65,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 100
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.1,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 128.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 2.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-03",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have diabetes mellitus type 2. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "3d7bcfde",
+    "name": "Mary Johnson",
+    "date_of_birth": "1968-03-23",
+    "gender": "Male",
+    "admission_date": "2025-07-30 16:46:27",
+    "discharge_date": "2025-07-31 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 6 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Amlodipine",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 98.2,
+      "blood_pressure_systolic": 163,
+      "blood_pressure_diastolic": 83,
+      "heart_rate": 109,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 96
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 11.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 185.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-07-30",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "28e64450",
+    "name": "Patricia Davis",
+    "date_of_birth": "1948-06-21",
+    "gender": "Male",
+    "admission_date": "2025-08-11 16:46:27",
+    "discharge_date": "2025-08-15 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 6 days ago.",
+    "past_medical_history": [
+      "Hypertension",
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "25mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 101.1,
+      "blood_pressure_systolic": 122,
+      "blood_pressure_diastolic": 72,
+      "heart_rate": 120,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 90
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 149.9,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-08-11",
+        "result": "Pending"
+      },
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-08-11",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have asthma. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "4b099fc8",
+    "name": "Michael Wilson",
+    "date_of_birth": "1993-10-02",
+    "gender": "Female",
+    "admission_date": "2025-07-18 16:46:27",
+    "discharge_date": "2025-07-25 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "50mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 98.4,
+      "blood_pressure_systolic": 148,
+      "blood_pressure_diastolic": 64,
+      "heart_rate": 57,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 95
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.3,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 130.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.1,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "acfe2235",
+    "name": "Robert Brown",
+    "date_of_birth": "1965-03-25",
+    "gender": "Female",
+    "admission_date": "2025-08-02 16:46:27",
+    "discharge_date": "2025-08-07 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Pneumonia"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 98.7,
+      "blood_pressure_systolic": 108,
+      "blood_pressure_diastolic": 66,
+      "heart_rate": 56,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 94
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 124.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "1af5e040",
+    "name": "Michael Wilson",
+    "date_of_birth": "1952-03-16",
+    "gender": "Female",
+    "admission_date": "2025-07-28 16:46:27",
+    "discharge_date": "2025-08-01 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Myocardial Infarction",
+      "Diabetes Mellitus Type 2",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "medication": "Furosemide",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 96.0,
+      "blood_pressure_systolic": 103,
+      "blood_pressure_diastolic": 87,
+      "heart_rate": 67,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 122.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have asthma. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "cb6b6ae2",
+    "name": "Michael Wilson",
+    "date_of_birth": "1963-09-10",
+    "gender": "Male",
+    "admission_date": "2025-08-11 16:46:27",
+    "discharge_date": "2025-08-15 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "Asthma",
+      "Diabetes Mellitus Type 2"
+    ],
+    "medications": [
+      {
+        "medication": "Lisinopril",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 99.3,
+      "blood_pressure_systolic": 136,
+      "blood_pressure_diastolic": 108,
+      "heart_rate": 68,
+      "respiratory_rate": 15,
+      "oxygen_saturation": 97
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 14.1,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 135.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "5e4cda91",
+    "name": "Patricia Davis",
+    "date_of_birth": "1949-10-17",
+    "gender": "Female",
+    "admission_date": "2025-08-09 16:46:27",
+    "discharge_date": "2025-08-12 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Asthma",
+      "Heart Failure",
+      "Atrial Fibrillation"
+    ],
+    "medications": [
+      {
+        "medication": "Warfarin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 100.8,
+      "blood_pressure_systolic": 178,
+      "blood_pressure_diastolic": 100,
+      "heart_rate": 53,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 95
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.1,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 155.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 2.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-08-09",
+        "result": "Pending"
+      },
+      {
+        "procedure": "Cardiac Catheterization",
+        "date": "2025-08-09",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "d6a2f9bd",
+    "name": "Mary Johnson",
+    "date_of_birth": "1949-11-08",
+    "gender": "Female",
+    "admission_date": "2025-08-12 16:46:27",
+    "discharge_date": "2025-08-17 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Omeprazole",
+        "dose": "50mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 96.4,
+      "blood_pressure_systolic": 107,
+      "blood_pressure_diastolic": 93,
+      "heart_rate": 76,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 93
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 18.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 132.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.1,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "4f32002d",
+    "name": "Michael Wilson",
+    "date_of_birth": "1974-06-22",
+    "gender": "Female",
+    "admission_date": "2025-07-20 16:46:27",
+    "discharge_date": "2025-07-27 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Asthma",
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "medication": "Amlodipine",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 99.4,
+      "blood_pressure_systolic": 159,
+      "blood_pressure_diastolic": 84,
+      "heart_rate": 100,
+      "respiratory_rate": 17,
+      "oxygen_saturation": 100
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.4,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 107.8,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-07-20",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-07-20",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "d35959bb",
+    "name": "Patricia Davis",
+    "date_of_birth": "1952-09-09",
+    "gender": "Male",
+    "admission_date": "2025-07-15 16:46:27",
+    "discharge_date": "2025-07-20 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "25mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 96.6,
+      "blood_pressure_systolic": 107,
+      "blood_pressure_diastolic": 60,
+      "heart_rate": 120,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 94
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.2,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 184.5,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.3,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-07-15",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-07-15",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "8d8a511c",
+    "name": "John Smith",
+    "date_of_birth": "1974-12-24",
+    "gender": "Male",
+    "admission_date": "2025-07-17 16:46:27",
+    "discharge_date": "2025-07-18 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "medication": "Furosemide",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 98.7,
+      "blood_pressure_systolic": 172,
+      "blood_pressure_diastolic": 94,
+      "heart_rate": 117,
+      "respiratory_rate": 19,
+      "oxygen_saturation": 90
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 130.8,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "3b9b1ae3",
+    "name": "Mary Johnson",
+    "date_of_birth": "1981-05-23",
+    "gender": "Female",
+    "admission_date": "2025-08-08 16:46:27",
+    "discharge_date": "2025-08-09 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "Asthma",
+      "Chronic Obstructive Pulmonary Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 98.0,
+      "blood_pressure_systolic": 141,
+      "blood_pressure_diastolic": 102,
+      "heart_rate": 62,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 90
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 191.7,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.6,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-08-08",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "4360789a",
+    "name": "Robert Brown",
+    "date_of_birth": "1977-12-19",
+    "gender": "Female",
+    "admission_date": "2025-08-13 16:46:27",
+    "discharge_date": "2025-08-16 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 6 days ago.",
+    "past_medical_history": [
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "medication": "Lisinopril",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "10mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 98.9,
+      "blood_pressure_systolic": 148,
+      "blood_pressure_diastolic": 107,
+      "heart_rate": 97,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 14.4,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 131.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.4,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-08-13",
+        "result": "Normal"
+      },
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-08-13",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "9d14f24b",
+    "name": "Michael Wilson",
+    "date_of_birth": "1944-10-04",
+    "gender": "Female",
+    "admission_date": "2025-08-12 16:46:27",
+    "discharge_date": "2025-08-19 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "medication": "Warfarin",
+        "dose": "50mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 98.7,
+      "blood_pressure_systolic": 97,
+      "blood_pressure_diastolic": 89,
+      "heart_rate": 66,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 94
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 77.5,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Cardiac Catheterization",
+        "date": "2025-08-12",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "ab1d4c72",
+    "name": "John Smith",
+    "date_of_birth": "1977-02-02",
+    "gender": "Male",
+    "admission_date": "2025-07-31 16:46:27",
+    "discharge_date": "2025-08-03 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 96.2,
+      "blood_pressure_systolic": 142,
+      "blood_pressure_diastolic": 71,
+      "heart_rate": 67,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 17.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 154.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-07-31",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "20df26b5",
+    "name": "John Smith",
+    "date_of_birth": "1981-06-04",
+    "gender": "Male",
+    "admission_date": "2025-08-08 16:46:27",
+    "discharge_date": "2025-08-13 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Chronic Obstructive Pulmonary Disease"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 101.9,
+      "blood_pressure_systolic": 149,
+      "blood_pressure_diastolic": 103,
+      "heart_rate": 119,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 96
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 99.9,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "2d81ee29",
+    "name": "Mary Johnson",
+    "date_of_birth": "1942-11-14",
+    "gender": "Male",
+    "admission_date": "2025-07-25 16:46:27",
+    "discharge_date": "2025-08-01 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 96.2,
+      "blood_pressure_systolic": 166,
+      "blood_pressure_diastolic": 103,
+      "heart_rate": 56,
+      "respiratory_rate": 15,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.4,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 127.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.4,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "64cb0e4c",
+    "name": "Michael Wilson",
+    "date_of_birth": "1954-12-19",
+    "gender": "Female",
+    "admission_date": "2025-08-03 16:46:27",
+    "discharge_date": "2025-08-08 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Hypertension",
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Albuterol",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 99.3,
+      "blood_pressure_systolic": 165,
+      "blood_pressure_diastolic": 107,
+      "heart_rate": 72,
+      "respiratory_rate": 22,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.4,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 134.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 2.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Endoscopy",
+        "date": "2025-08-03",
+        "result": "Pending"
+      },
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-08-03",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "365c6702",
+    "name": "Patricia Davis",
+    "date_of_birth": "1959-07-06",
+    "gender": "Male",
+    "admission_date": "2025-07-20 16:46:27",
+    "discharge_date": "2025-07-25 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 96.6,
+      "blood_pressure_systolic": 114,
+      "blood_pressure_diastolic": 63,
+      "heart_rate": 84,
+      "respiratory_rate": 18,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 14.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 75.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-07-20",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "CT Scan",
+        "date": "2025-07-20",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "4a259683",
+    "name": "John Smith",
+    "date_of_birth": "1999-04-24",
+    "gender": "Male",
+    "admission_date": "2025-08-10 16:46:27",
+    "discharge_date": "2025-08-16 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 2 days ago.",
+    "past_medical_history": [
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 98.8,
+      "blood_pressure_systolic": 173,
+      "blood_pressure_diastolic": 82,
+      "heart_rate": 89,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 93
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 14.1,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 134.6,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-10",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "CT Scan",
+        "date": "2025-08-10",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "4501910c",
+    "name": "Patricia Davis",
+    "date_of_birth": "1976-04-24",
+    "gender": "Male",
+    "admission_date": "2025-08-09 16:46:27",
+    "discharge_date": "2025-08-10 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Heart Failure",
+      "Hypertension",
+      "Chronic Obstructive Pulmonary Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 101.7,
+      "blood_pressure_systolic": 133,
+      "blood_pressure_diastolic": 76,
+      "heart_rate": 112,
+      "respiratory_rate": 23,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 129.9,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.6,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-08-09",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have chronic kidney disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "8fe672d5",
+    "name": "Patricia Davis",
+    "date_of_birth": "1998-09-21",
+    "gender": "Male",
+    "admission_date": "2025-08-12 16:46:27",
+    "discharge_date": "2025-08-17 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Metformin",
+        "dose": "5mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 96.1,
+      "blood_pressure_systolic": 158,
+      "blood_pressure_diastolic": 95,
+      "heart_rate": 102,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 88
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 14.2,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 105.7,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 2.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have chronic kidney disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "da5641b0",
+    "name": "Patricia Davis",
+    "date_of_birth": "1946-02-17",
+    "gender": "Male",
+    "admission_date": "2025-08-09 16:46:27",
+    "discharge_date": "2025-08-11 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Atrial Fibrillation",
+      "Heart Failure"
+    ],
+    "medications": [
+      {
+        "medication": "Lisinopril",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "25mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 99.9,
+      "blood_pressure_systolic": 173,
+      "blood_pressure_diastolic": 108,
+      "heart_rate": 54,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 94
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 141.9,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "382ec67a",
+    "name": "John Smith",
+    "date_of_birth": "1994-07-21",
+    "gender": "Female",
+    "admission_date": "2025-07-19 16:46:27",
+    "discharge_date": "2025-07-22 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 101.5,
+      "blood_pressure_systolic": 177,
+      "blood_pressure_diastolic": 77,
+      "heart_rate": 119,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.3,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 190.7,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Asthma. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have asthma. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "1606232e",
+    "name": "Mary Johnson",
+    "date_of_birth": "1999-02-10",
+    "gender": "Female",
+    "admission_date": "2025-08-08 16:46:27",
+    "discharge_date": "2025-08-13 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Chronic Kidney Disease",
+      "Atrial Fibrillation",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "5mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 97.4,
+      "blood_pressure_systolic": 160,
+      "blood_pressure_diastolic": 84,
+      "heart_rate": 105,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 14.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 119.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-08-08",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have diabetes mellitus type 2. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "3330e735",
+    "name": "John Smith",
+    "date_of_birth": "1949-07-23",
+    "gender": "Female",
+    "admission_date": "2025-07-19 16:46:27",
+    "discharge_date": "2025-07-25 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 6 days ago.",
+    "past_medical_history": [
+      "Atrial Fibrillation",
+      "Asthma",
+      "Diabetes Mellitus Type 2"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 101.7,
+      "blood_pressure_systolic": 146,
+      "blood_pressure_diastolic": 83,
+      "heart_rate": 84,
+      "respiratory_rate": 13,
+      "oxygen_saturation": 90
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 126.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.4,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Endoscopy",
+        "date": "2025-07-19",
+        "result": "Normal"
+      },
+      {
+        "procedure": "Cardiac Catheterization",
+        "date": "2025-07-19",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Atrial Fibrillation. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have atrial fibrillation. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "7ab5c9e3",
+    "name": "Michael Wilson",
+    "date_of_birth": "1978-10-26",
+    "gender": "Male",
+    "admission_date": "2025-08-03 16:46:27",
+    "discharge_date": "2025-08-10 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "Stroke",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 101.4,
+      "blood_pressure_systolic": 121,
+      "blood_pressure_diastolic": 96,
+      "heart_rate": 116,
+      "respiratory_rate": 14,
+      "oxygen_saturation": 98
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.0,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 88.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-08-03",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "9402d53c",
+    "name": "Patricia Davis",
+    "date_of_birth": "1966-05-16",
+    "gender": "Female",
+    "admission_date": "2025-07-19 16:46:27",
+    "discharge_date": "2025-07-20 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Pneumonia"
+    ],
+    "medications": [
+      {
+        "medication": "Insulin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 98.0,
+      "blood_pressure_systolic": 173,
+      "blood_pressure_diastolic": 98,
+      "heart_rate": 67,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 93
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 14.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 160.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.3,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "d02cc2fe",
+    "name": "Robert Brown",
+    "date_of_birth": "1987-12-21",
+    "gender": "Female",
+    "admission_date": "2025-07-29 16:46:27",
+    "discharge_date": "2025-08-03 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Heart Failure",
+      "Stroke",
+      "Atrial Fibrillation"
+    ],
+    "medications": [
+      {
+        "medication": "No current medications",
+        "dose": "",
+        "frequency": ""
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 97.2,
+      "blood_pressure_systolic": 159,
+      "blood_pressure_diastolic": 71,
+      "heart_rate": 120,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 162.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-07-29",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "468a5c12",
+    "name": "Mary Johnson",
+    "date_of_birth": "1955-05-22",
+    "gender": "Female",
+    "admission_date": "2025-08-09 16:46:27",
+    "discharge_date": "2025-08-15 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Pneumonia",
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Albuterol",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Metformin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "25mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 99.7,
+      "blood_pressure_systolic": 162,
+      "blood_pressure_diastolic": 101,
+      "heart_rate": 101,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 93
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 17.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 126.0,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.6,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-08-09",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Kidney Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have chronic kidney disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "41fce129",
+    "name": "Michael Wilson",
+    "date_of_birth": "1968-06-13",
+    "gender": "Male",
+    "admission_date": "2025-07-30 16:46:27",
+    "discharge_date": "2025-08-06 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Lisinopril",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "5mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 98.7,
+      "blood_pressure_systolic": 116,
+      "blood_pressure_diastolic": 93,
+      "heart_rate": 111,
+      "respiratory_rate": 17,
+      "oxygen_saturation": 95
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 163.9,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "ed4bc822",
+    "name": "John Smith",
+    "date_of_birth": "1941-06-21",
+    "gender": "Male",
+    "admission_date": "2025-08-10 16:46:27",
+    "discharge_date": "2025-08-16 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 6 days ago.",
+    "past_medical_history": [
+      "Chronic Kidney Disease"
+    ],
+    "medications": [
+      {
+        "medication": "Warfarin",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 98.6,
+      "blood_pressure_systolic": 149,
+      "blood_pressure_diastolic": 74,
+      "heart_rate": 101,
+      "respiratory_rate": 22,
+      "oxygen_saturation": 90
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 11.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 155.5,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-08-10",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Endoscopy",
+        "date": "2025-08-10",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "86856f38",
+    "name": "Mary Johnson",
+    "date_of_birth": "1957-12-26",
+    "gender": "Male",
+    "admission_date": "2025-07-19 16:46:27",
+    "discharge_date": "2025-07-20 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "Atrial Fibrillation"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 97.9,
+      "blood_pressure_systolic": 139,
+      "blood_pressure_diastolic": 99,
+      "heart_rate": 100,
+      "respiratory_rate": 21,
+      "oxygen_saturation": 89
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 12.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 179.9,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.5,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "MRI",
+        "date": "2025-07-19",
+        "result": "Pending"
+      },
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-07-19",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "cb8669f3",
+    "name": "Robert Brown",
+    "date_of_birth": "1955-05-04",
+    "gender": "Male",
+    "admission_date": "2025-08-08 16:46:27",
+    "discharge_date": "2025-08-11 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "Stroke",
+      "Hypertension",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Atorvastatin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 97.1,
+      "blood_pressure_systolic": 147,
+      "blood_pressure_diastolic": 99,
+      "heart_rate": 56,
+      "respiratory_rate": 17,
+      "oxygen_saturation": 88
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.9,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 95.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.1,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-08",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-08",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Pneumonia. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have pneumonia. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "7dcde2f3",
+    "name": "Patricia Davis",
+    "date_of_birth": "1945-10-01",
+    "gender": "Male",
+    "admission_date": "2025-07-19 16:46:27",
+    "discharge_date": "2025-07-26 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "50mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 96.7,
+      "blood_pressure_systolic": 104,
+      "blood_pressure_diastolic": 77,
+      "heart_rate": 119,
+      "respiratory_rate": 17,
+      "oxygen_saturation": 96
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.6,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 75.4,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.6,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-07-19",
+        "result": "Abnormal"
+      },
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-07-19",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have chronic obstructive pulmonary disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "a16a8e76",
+    "name": "Robert Brown",
+    "date_of_birth": "1968-05-12",
+    "gender": "Male",
+    "admission_date": "2025-07-17 16:46:27",
+    "discharge_date": "2025-07-24 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 4 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Metoprolol",
+        "dose": "25mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 99.8,
+      "blood_pressure_systolic": 111,
+      "blood_pressure_diastolic": 99,
+      "heart_rate": 67,
+      "respiratory_rate": 24,
+      "oxygen_saturation": 91
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 16.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 174.7,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.4,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "MRI",
+        "date": "2025-07-17",
+        "result": "Pending"
+      },
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-07-17",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Heart Failure. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have heart failure. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "ba1b7d80",
+    "name": "Robert Brown",
+    "date_of_birth": "2000-09-22",
+    "gender": "Female",
+    "admission_date": "2025-07-18 16:46:27",
+    "discharge_date": "2025-07-19 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "Myocardial Infarction",
+      "Heart Failure",
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "10mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "50mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Albuterol",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 99.8,
+      "blood_pressure_systolic": 101,
+      "blood_pressure_diastolic": 85,
+      "heart_rate": 115,
+      "respiratory_rate": 23,
+      "oxygen_saturation": 92
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.6,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 184.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-07-18",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Myocardial Infarction. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have myocardial infarction. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "69d15da9",
+    "name": "John Smith",
+    "date_of_birth": "1980-11-23",
+    "gender": "Female",
+    "admission_date": "2025-08-02 16:46:27",
+    "discharge_date": "2025-08-09 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 7 days ago.",
+    "past_medical_history": [
+      "Chronic Obstructive Pulmonary Disease",
+      "Stroke",
+      "Asthma"
+    ],
+    "medications": [
+      {
+        "medication": "Amlodipine",
+        "dose": "25mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "25mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 96.3,
+      "blood_pressure_systolic": 170,
+      "blood_pressure_diastolic": 110,
+      "heart_rate": 108,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 89
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 17.4,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 90.5,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.2,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "CT Scan",
+        "date": "2025-08-02",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "b639fffd",
+    "name": "Robert Brown",
+    "date_of_birth": "1995-05-03",
+    "gender": "Male",
+    "admission_date": "2025-07-24 16:46:27",
+    "discharge_date": "2025-07-27 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "Hypertension",
+      "Myocardial Infarction"
+    ],
+    "medications": [
+      {
+        "medication": "Amlodipine",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Lisinopril",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Metoprolol",
+        "dose": "50mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 99.6,
+      "blood_pressure_systolic": 156,
+      "blood_pressure_diastolic": 103,
+      "heart_rate": 106,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 88
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 15.6,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 176.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 2.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Chest X-ray",
+        "date": "2025-07-24",
+        "result": "Abnormal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have diabetes mellitus type 2. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "69f025f0",
+    "name": "Mary Johnson",
+    "date_of_birth": "1945-12-26",
+    "gender": "Female",
+    "admission_date": "2025-08-10 16:46:27",
+    "discharge_date": "2025-08-11 16:46:27",
+    "chief_complaint": "Fever and cough",
+    "history_of_present_illness": "Patient presents with fever and cough. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "Hypertension",
+      "Stroke"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "5mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 96.1,
+      "blood_pressure_systolic": 173,
+      "blood_pressure_diastolic": 70,
+      "heart_rate": 106,
+      "respiratory_rate": 17,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 11.7,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 167.3,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-10",
+        "result": "Normal"
+      },
+      {
+        "procedure": "Echocardiogram",
+        "date": "2025-08-10",
+        "result": "Normal"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with fever and cough and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "29f7b1cb",
+    "name": "John Smith",
+    "date_of_birth": "1962-07-11",
+    "gender": "Female",
+    "admission_date": "2025-07-19 16:46:27",
+    "discharge_date": "2025-07-21 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 3 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "as needed"
+      }
+    ],
+    "allergies": [
+      "No known drug allergies"
+    ],
+    "vital_signs": {
+      "temperature": 101.1,
+      "blood_pressure_systolic": 174,
+      "blood_pressure_diastolic": 79,
+      "heart_rate": 76,
+      "respiratory_rate": 20,
+      "oxygen_saturation": 97
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 14.1,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 167.2,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.0,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Chronic Obstructive Pulmonary Disease. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have chronic obstructive pulmonary disease. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "84afcfac",
+    "name": "Patricia Davis",
+    "date_of_birth": "1947-04-16",
+    "gender": "Female",
+    "admission_date": "2025-07-24 16:46:27",
+    "discharge_date": "2025-07-29 16:46:27",
+    "chief_complaint": "Chest pain and shortness of breath",
+    "history_of_present_illness": "Patient presents with chest pain and shortness of breath. Symptoms began 5 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Omeprazole",
+        "dose": "10mg",
+        "frequency": "twice daily"
+      },
+      {
+        "medication": "Insulin",
+        "dose": "50mg",
+        "frequency": "twice daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 100.1,
+      "blood_pressure_systolic": 150,
+      "blood_pressure_diastolic": 109,
+      "heart_rate": 59,
+      "respiratory_rate": 12,
+      "oxygen_saturation": 97
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 10.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 104.1,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.7,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Stroke. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with chest pain and shortness of breath and was found to have stroke. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "1ac5e1ad",
+    "name": "Michael Wilson",
+    "date_of_birth": "1980-12-17",
+    "gender": "Female",
+    "admission_date": "2025-07-20 16:46:27",
+    "discharge_date": "2025-07-24 16:46:27",
+    "chief_complaint": "Headache and dizziness",
+    "history_of_present_illness": "Patient presents with headache and dizziness. Symptoms began 6 days ago.",
+    "past_medical_history": [
+      "Diabetes Mellitus Type 2",
+      "Chronic Kidney Disease",
+      "Hypertension"
+    ],
+    "medications": [
+      {
+        "medication": "Lisinopril",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "10mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Sulfa drugs (hives)",
+      "Aspirin (nausea)"
+    ],
+    "vital_signs": {
+      "temperature": 98.0,
+      "blood_pressure_systolic": 165,
+      "blood_pressure_diastolic": 100,
+      "heart_rate": 58,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 13.5,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 193.9,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 0.9,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "No procedures performed",
+        "date": "",
+        "result": ""
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Diabetes Mellitus Type 2. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with headache and dizziness and was found to have diabetes mellitus type 2. Patient's condition improved and they were discharged in stable condition."
+  },
+  {
+    "patient_id": "61fe51ef",
+    "name": "Patricia Davis",
+    "date_of_birth": "1969-10-20",
+    "gender": "Male",
+    "admission_date": "2025-08-12 16:46:27",
+    "discharge_date": "2025-08-15 16:46:27",
+    "chief_complaint": "Abdominal pain and nausea",
+    "history_of_present_illness": "Patient presents with abdominal pain and nausea. Symptoms began 1 days ago.",
+    "past_medical_history": [
+      "No significant past medical history"
+    ],
+    "medications": [
+      {
+        "medication": "Atorvastatin",
+        "dose": "5mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Furosemide",
+        "dose": "25mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Warfarin",
+        "dose": "25mg",
+        "frequency": "once daily"
+      },
+      {
+        "medication": "Omeprazole",
+        "dose": "10mg",
+        "frequency": "as needed"
+      },
+      {
+        "medication": "Amlodipine",
+        "dose": "5mg",
+        "frequency": "once daily"
+      }
+    ],
+    "allergies": [
+      "Penicillin (rash)"
+    ],
+    "vital_signs": {
+      "temperature": 100.8,
+      "blood_pressure_systolic": 124,
+      "blood_pressure_diastolic": 93,
+      "heart_rate": 58,
+      "respiratory_rate": 16,
+      "oxygen_saturation": 99
+    },
+    "lab_results": {
+      "Hemoglobin": {
+        "value": 17.8,
+        "unit": "g/dL"
+      },
+      "Glucose": {
+        "value": 151.6,
+        "unit": "mg/dL"
+      },
+      "Creatinine": {
+        "value": 1.3,
+        "unit": "mg/dL"
+      }
+    },
+    "procedures": [
+      {
+        "procedure": "Colonoscopy",
+        "date": "2025-08-12",
+        "result": "Normal"
+      },
+      {
+        "procedure": "Blood Transfusion",
+        "date": "2025-08-12",
+        "result": "Pending"
+      }
+    ],
+    "assessment_and_plan": "Primary diagnosis: Hypertension. Plan: Continue current medications; Monitor vital signs; Follow up with primary care physician.",
+    "discharge_summary": "Patient was admitted with abdominal pain and nausea and was found to have hypertension. Patient's condition improved and they were discharged in stable condition."
+  }
+]

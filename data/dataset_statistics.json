@@ -1,0 +1,8 @@
+{
+  "total_records": 3600,
+  "unique_patients": 3600,
+  "gender_distribution": {
+    "male": 1789,
+    "female": 1811
+  }
+}
