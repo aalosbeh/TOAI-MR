@@ -1,11 +1,3 @@
-"""
-TOAI-MR Synthetic Medical Records Dataset Generator
-
-This module generates synthetic medical records in various EHR formats
-for training the TOAI-MR model. It creates realistic patient data while
-ensuring HIPAA compliance through complete anonymization.
-"""
-
 import json
 import random
 import uuid
