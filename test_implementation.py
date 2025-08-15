@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-"""
-TOAI-MR Implementation Test Script
-
-This script tests the core functionality of TOAI-MR to ensure
-all components work correctly together.
-"""
 
 import sys
 import os
