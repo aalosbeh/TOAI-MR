@@ -36,7 +36,7 @@ def test_dataset_generation():
         with open('data/test_sample.json', 'w') as f:
             json.dump(test_data, f, indent=2, default=str)
         
-        logger.info(f"✅ Dataset generation successful! Generated {len(test_data)} samples")
+        logger.info(f" Dataset generation successful! Generated {len(test_data)} samples")
         
         # Print sample
         sample = test_data[0]
@@ -46,7 +46,7 @@ def test_dataset_generation():
         return True
         
     except Exception as e:
-        logger.error(f"❌ Dataset generation failed: {str(e)}")
+        logger.error(f" Dataset generation failed: {str(e)}")
         return False
 
 def test_model_initialization():
@@ -61,7 +61,7 @@ def test_model_initialization():
         total_params = sum(p.numel() for p in model.parameters())
         trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
         
-        logger.info(f"✅ Model initialization successful!")
+        logger.info(f" Model initialization successful!")
         logger.info(f"Total parameters: {total_params:,}")
         logger.info(f"Trainable parameters: {trainable_params:,}")
         logger.info(f"Model size: ~{total_params * 4 / 1024**3:.2f} GB (FP32)")
@@ -69,7 +69,7 @@ def test_model_initialization():
         return model
         
     except Exception as e:
-        logger.error(f"❌ Model initialization failed: {str(e)}")
+        logger.error(f" Model initialization failed: {str(e)}")
         return None
 
 def test_forward_pass(model):
@@ -90,14 +90,14 @@ def test_forward_pass(model):
         with torch.no_grad():
             outputs = model(source_ids, target_ids, source_mask, target_mask)
         
-        logger.info(f"✅ Forward pass successful!")
+        logger.info(f" Forward pass successful!")
         logger.info(f"Output logits shape: {outputs['logits'].shape}")
         logger.info(f"Confidence scores shape: {outputs['confidence_scores'].shape}")
         
         return True
         
     except Exception as e:
-        logger.error(f"❌ Forward pass failed: {str(e)}")
+        logger.error(f" Forward pass failed: {str(e)}")
         return False
 
 def test_generation(model):
@@ -120,14 +120,14 @@ def test_generation(model):
                 max_length=64
             )
         
-        logger.info(f"✅ Text generation successful!")
+        logger.info(f" Text generation successful!")
         logger.info(f"Generated text length: {len(generated['generated_text'])}")
         logger.info(f"Average confidence: {generated['confidence_scores'].mean():.4f}")
         
         return True
         
     except Exception as e:
-        logger.error(f"❌ Text generation failed: {str(e)}")
+        logger.error(f" Text generation failed: {str(e)}")
         return False
 
 def test_dataset_loading():
@@ -149,7 +149,7 @@ def test_dataset_loading():
         # Test data loading
         sample = dataset[0]
         
-        logger.info(f"✅ Dataset loading successful!")
+        logger.info(f" Dataset loading successful!")
         logger.info(f"Dataset size: {len(dataset)}")
         logger.info(f"Sample keys: {list(sample.keys())}")
         logger.info(f"Source input shape: {sample['source_input_ids'].shape}")
@@ -158,7 +158,7 @@ def test_dataset_loading():
         return True
         
     except Exception as e:
-        logger.error(f"❌ Dataset loading failed: {str(e)}")
+        logger.error(f" Dataset loading failed: {str(e)}")
         return False
 
 def test_tokenization():
@@ -176,7 +176,7 @@ def test_tokenization():
         encoded = tokenizer.encode(medical_text, max_length=128)
         decoded = tokenizer.decode(encoded['input_ids'].squeeze())
         
-        logger.info(f"✅ Tokenization successful!")
+        logger.info(f" Tokenization successful!")
         logger.info(f"Original text length: {len(medical_text)}")
         logger.info(f"Encoded tokens: {encoded['input_ids'].shape}")
         logger.info(f"Decoded text length: {len(decoded)}")
@@ -184,7 +184,7 @@ def test_tokenization():
         return True
         
     except Exception as e:
-        logger.error(f"❌ Tokenization failed: {str(e)}")
+        logger.error(f" Tokenization failed: {str(e)}")
         return False
 
 def generate_demo_data():
@@ -205,7 +205,7 @@ def generate_demo_data():
         with open('data/demo_samples.json', 'w') as f:
             json.dump(demo_samples, f, indent=2, default=str)
         
-        logger.info(f"✅ Demo data generated! Saved {len(demo_samples)} samples")
+        logger.info(f" Demo data generated! Saved {len(demo_samples)} samples")
         
         # Print one example
         sample = demo_samples[0]
@@ -217,7 +217,7 @@ def generate_demo_data():
         return True
         
     except Exception as e:
-        logger.error(f"❌ Demo data generation failed: {str(e)}")
+        logger.error(f" Demo data generation failed: {str(e)}")
         return False
 
 def run_all_tests():
@@ -258,7 +258,7 @@ def run_all_tests():
     total_tests = len(test_results)
     
     for test_name, result in test_results.items():
-        status = "✅ PASS" if result else "❌ FAIL"
+        status = " PASS" if result else " FAIL"
         logger.info(f"{test_name}: {status}")
     
     logger.info(f"\nOverall: {passed_tests}/{total_tests} tests passed")
