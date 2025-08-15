@@ -1,10 +1,3 @@
-"""
-TOAI-MR Evaluation Framework
-
-This module provides comprehensive evaluation metrics and benchmarking
-capabilities for assessing TOAI-MR's performance in medical record translation.
-"""
-
 import torch
 import json
 import numpy as np
